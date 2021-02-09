@@ -1,1 +1,0 @@
-# snapmanager-hyper-v

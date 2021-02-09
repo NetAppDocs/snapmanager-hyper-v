@@ -1,0 +1,21 @@
+---
+permalink: task_modifying_policies.html
+sidebar: sidebar
+keywords: 
+summary: 'You can modify the policies that protect your datasets by using the Modify Policy wizard.'
+---
+= Modifying policies
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+You can modify the policies that protect your datasets by using the Modify Policy wizard.
+
+. From the navigation pane, click *Protection* > *Datasets*.
+. Select the dataset that contains the policies that you want to modify.
+. Select the policy that you want to modify.
+. From the Actions pane, click *Modify policy*.
++
+The Modify Policy wizard appears.
+
+. Complete the steps in the wizard to modify the protection policy for your dataset.

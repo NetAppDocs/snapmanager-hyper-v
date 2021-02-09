@@ -1,0 +1,16 @@
+---
+permalink: concept_ontap_vss_hardware_provider_requirement.html
+sidebar: sidebar
+keywords: 
+summary: 'You must have the ONTAP VSS Hardware Provider installed for SnapManager to function properly. ONTAP VSS Hardware Provider integrates the SnapDrive service and storage systems running ONTAP into the VSS framework. This is required for VMs running on SAN storage.'
+---
+= ONTAP VSS Hardware Provider requirement
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+You must have the ONTAP VSS Hardware Provider installed for SnapManager to function properly. ONTAP VSS Hardware Provider integrates the SnapDrive service and storage systems running ONTAP into the VSS framework. This is required for VMs running on SAN storage.
+
+The ONTAP VSS Hardware Provider, included with SnapDrive, does not need to be installed separately.
+
+For Hyper-V VMs running on SMB 3.0 shares, remote VSS hardware provider running on Data ONTAP 8.2 will be invoked by the Windows Hypervisor.

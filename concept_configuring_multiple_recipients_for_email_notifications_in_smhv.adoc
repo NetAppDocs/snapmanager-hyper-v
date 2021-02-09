@@ -1,0 +1,14 @@
+---
+permalink: concept_configuring_multiple_recipients_for_email_notifications_in_smhv.html
+sidebar: sidebar
+keywords: 
+summary: 'Multiple email recipients for notifications must be separated by commas.'
+---
+= Configuring email notifications
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+Multiple email recipients for notifications must be separated by commas.
+
+When you configure multiple email recipients for email notifications in SnapManager for Hyper-V, separate each recipient with a comma. This requirement differs from SnapManager for SQL in which each email notification recipient must be separated by semicolons.

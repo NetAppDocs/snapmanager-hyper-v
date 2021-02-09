@@ -1,0 +1,12 @@
+---
+permalink: concept_uninstalling_snapmanager_for_hyper_v_on_windows.html
+sidebar: sidebar
+keywords: 
+summary: 'You can uninstall SnapManager for Hyper-V from the Windows host when you no longer need the software. You must run the uninstallation program interactively.'
+---
+= Uninstalling SnapManager for Hyper-V on Windows
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+You can uninstall SnapManager for Hyper-V from the Windows host when you no longer need the software. You must run the uninstallation program interactively.

@@ -1,0 +1,28 @@
+---
+permalink: reference_license_requirements.html
+sidebar: sidebar
+keywords: 
+summary: 'To run SnapManager for Hyper-V, you must select either host-based or storage system licenses during the installation of the licenses.'
+---
+= License requirements
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+To run SnapManager for Hyper-V, you must select either host-based or storage system licenses during the installation of the licenses.
+
+== SnapManager suite license
+
+A SnapManager suite license is required on the Windows host system. You can choose either host-based licensing or storage system licensing.
+
+== Per server license
+
+This is also known as host-based licensing. If you select host-based licensing, you must provide a SnapManager suite license key during installation, which you can change later if you need to. You can change the license key after installation by clicking *License settings* in the SnapManager for Hyper-VWelcome window. Each parent host requires a SnapManager suite license.
+
+== Per storage system license
+
+This is also known as storage system licensing. If you select storage system licensing, you must add the SnapManager suite license to all storage systems to run the SnapManager for Hyper-V operations.
+
+== Per client system license
+
+You should use this licensing option when you are installing the management console.

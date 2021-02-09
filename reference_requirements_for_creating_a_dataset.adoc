@@ -1,0 +1,40 @@
+---
+permalink: reference_requirements_for_creating_a_dataset.html
+sidebar: sidebar
+keywords: 
+summary: 'You must meet specific requirements when you want to create datasets to protect your data. You must first add the host or host cluster to SnapManager for Hyper-V and then add virtual machines to the host or host cluster.'
+---
+= Requirements for creating a dataset
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+You must meet specific requirements when you want to create datasets to protect your data. You must first add the host or host cluster to SnapManager for Hyper-V and then add virtual machines to the host or host cluster.
+
+== Dataset name and description
+
+When naming the dataset, you should use a naming convention at your site to help administrators locate and identify datasets, limited to these characters:
+
+* a to z
+* A to Z
+* 0 to 9
+* _ (underscore)
+* hyphen
+
+== Dataset resources
+
+You must add the host or host cluster to SnapManager for Hyper-V before adding resources such as virtual machines to the dataset.
+
+You can add hosts, dedicated virtual machines, or shared virtual machines to a dataset. If you add a host, you add all of the virtual machines that belong to the host. You can also add virtual machines belonging to different hosts to the dataset. Virtual machines can belong to multiple datasets.
+
+NOTE: Dedicated and shared virtual machines that belong to the same host cluster should not exist in the same dataset. Adding these types of resources to a single dataset can cause the dataset backup to fail.
+
+== Virtual machines and ONTAP LUNs
+
+All of the files associated with the virtual machines, including configuration files, Snapshot copies, and VHDs, must reside on ONTAP LUNs.
+
+== Dataset resource consumption
+
+Only one application-consistent backup operation can occur on a host at any given time. If the same virtual machines belong to different datasets, you should not schedule an application-consistent backup of the datasets at the same time. If this occurs, one of the backup operations fails.
+
+When creating a dataset, you should select all virtual machines that reside on a particular ONTAP LUN. This enables you to get all backups in one Snapshot copy and to reduce the space consumption on the storage system.

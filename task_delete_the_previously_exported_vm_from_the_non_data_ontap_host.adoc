@@ -1,0 +1,24 @@
+---
+permalink: task_delete_the_previously_exported_vm_from_the_non_data_ontap_host.html
+sidebar: sidebar
+keywords: 
+summary: 'After you have imported the virtual machine \(VM\) successfully, you can delete the VM from the non-ONTAP host.'
+---
+= Deleting the previously exported VM from the non-ONTAP host
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+After you have imported the virtual machine (VM) successfully, you can delete the VM from the non-ONTAP host.
+
+The VM must have been imported successfully.
+
+. Select the non-ONTAP host on which the VM was originally hosted.
+. From the Virtual Machines pane, right-click the name of the VM that you exported previously.
+. Click *Delete*.
++
+A window opens, asking that you confirm that you want to delete the VM.
+
+. Click *Delete*.
++
+The VM is removed from its original host.
