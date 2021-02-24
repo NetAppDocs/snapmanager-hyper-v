@@ -1,0 +1,20 @@
+---
+permalink: task_viewing_a_virtual_machine.html
+sidebar: sidebar
+keywords: 
+summary: 'From the Virtual Machine tab and VHD tab of the Details pane for a virtual machine, you can view information about and monitor the status of that machine.'
+---
+= Viewing a virtual machine
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+From the Virtual Machine tab and VHD tab of the Details pane for a virtual machine, you can view information about and monitor the status of that machine.
+
+. From the navigation pane, click *Protection* > *Hosts* or *Protection* > *Datasets*.
+. Select the dataset or host to which the virtual machine belongs.
+. Select the appropriate virtual machine.
+
+The Virtual Machine tab displays the name, GUID, and state of the selected virtual machine.
+
+The VHD tab displays system disk, mountpoint, VHD full path, LUN path, storage system name, serial number, and volume name associated with the selected virtual machine.

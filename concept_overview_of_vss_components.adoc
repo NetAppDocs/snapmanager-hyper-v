@@ -1,0 +1,36 @@
+---
+permalink: concept_overview_of_vss_components.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use Microsoft Windows Server Volume Shadow Copy Service \(VSS\) coordinate data servers, backup applications, and storage management software to support the creation and management of consistent backups.'
+---
+= VSS components
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+You can use Microsoft Windows Server Volume Shadow Copy Service (VSS) coordinate data servers, backup applications, and storage management software to support the creation and management of consistent backups.
+
+VSS coordinates Snapshot copy-based backup and restore operations and includes these components:
+
+* *VSS requestor*
++
+The VSS requestor is a backup application, such as SnapManager for Hyper-V or NTBackup. It initiates VSS backup and restore operations. The requestor also specifies Snapshot copy attributes for backups it initiates.
+
+* *VSS writer*
++
+The VSS writer owns and manages the data to be captured in the Snapshot copy. Microsoft Hyper-V VSS Writer is an example of a VSS writer.
+
+* *VSS provider*
++
+The VSS provider is responsible for creating and managing the Snapshot copy. A provider can be either a hardware provider or a software provider:
+
+ ** A hardware provider integrates storage array-specific Snapshot copy and cloning functionality into the VSS framework.
++
+The ONTAP VSS Hardware Provider integrates the SnapDrive service and storage systems running Data ONTAP into the VSS framework.
++
+NOTE: The ONTAP VSS Hardware Provider is installed automatically as part of the SnapDrive software installation.
+
+ ** A software provider implements Snapshot copy or cloning functionality in software that is running on the Windows system.
++
+NOTE: To ensure that the ONTAP VSS Hardware Provider works properly, do not use the VSS software provider on Data ONTAP LUNs. If you use the VSS software provider to create Snapshot copies on a Data ONTAP LUN, you cannot delete that LUN by using the VSS Hardware Provider.

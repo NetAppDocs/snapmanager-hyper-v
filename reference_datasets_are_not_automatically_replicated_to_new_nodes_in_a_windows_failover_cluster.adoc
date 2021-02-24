@@ -1,0 +1,27 @@
+---
+permalink: reference_datasets_are_not_automatically_replicated_to_new_nodes_in_a_windows_failover_cluster.html
+sidebar: sidebar
+keywords: 
+summary: ''
+---
+= Datasets are not automatically replicated to new nodes in a Windows Failover Cluster
+:icons: font
+:imagesdir: ./media/
+
+* *Issue*
++
+After adding new nodes to a Windows Failover Cluster, datasets are not automatically transferred to the new node.
+
+* *Cause*
++
+When adding new nodes to a Windows Failover Cluster, SnapManager for Hyper-V does not automatically replicate the existing datasets to the new nodes in the cluster.
+
+* *Corrective action*
++
+Run the Modify Dataset wizard and click *Update Schedule Policies to all the Dataset member nodes* on the Basic Details page.
++
+This wizard must be run for each dataset that has virtual machines.
+
+*Related information*
+
+xref:task_modifying_a_dataset.adoc[Modifying a dataset]

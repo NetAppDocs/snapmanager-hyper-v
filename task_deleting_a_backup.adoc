@@ -1,0 +1,26 @@
+---
+permalink: task_deleting_a_backup.html
+sidebar: sidebar
+keywords: 
+summary: 'You can delete one or more backups associated with either a dataset or a virtual machine.'
+---
+= Deleting a backup
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+You can delete one or more backups associated with either a dataset or a virtual machine.
+
+. From the navigation pane, click *Recovery*.
+. Select the virtual machine within the dataset that contains the backup you want to delete.
++
+If you delete a backup associated with a dataset, the backups associated with any virtual machines belonging to that dataset are also deleted. If you delete a backup associated with a virtual machine, only that backup is deleted.
+
+. In the Backups pane, select the backup that you want to delete.
+. Click *Delete*.
++
+The *Delete Backup* dialog displays. You have the option to delete backups for a selected VM or for an entire dataset.
+
+. Select the appropriate option, and click *Confirm Delete*.
++
+You can view the status of the backup delete operation in the status window.

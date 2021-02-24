@@ -1,0 +1,31 @@
+---
+permalink: task_manually_backing_up_a_dataset.html
+sidebar: sidebar
+keywords: 
+summary: 'You can create an on-demand backup of a dataset.'
+---
+= Manually backing up a dataset
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+You can create an on-demand backup of a dataset.
+
+You must have the following information available:
+
+* Backup name and description
+* Policy name, if necessary
+* Policy override information (if you plan to change any of the previously specified policy options)
+* Backup type
+* Backup options information
+
+. From the navigation pane, click *Protection* > *Datasets*.
+. Select the dataset for which you want to create a manual backup and click *Backup*.
++
+The Backup wizard appears.
+
+. Complete the steps in the wizard to create your on-demand backup.
++
+Closing the wizard does not cancel the on-demand backup.
+
+You can view the status of the on-demand backup in the Jobs Management window.
