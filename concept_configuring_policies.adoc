@@ -1,0 +1,12 @@
+---
+permalink: concept_configuring_policies.html
+sidebar: sidebar
+keywords: 
+summary: 'You can add, modify, or delete policies associated with datasets so that you can protect your data.'
+---
+= Configuring policies
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+You can add, modify, or delete policies associated with datasets so that you can protect your data.

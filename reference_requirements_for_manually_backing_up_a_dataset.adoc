@@ -1,0 +1,70 @@
+---
+permalink: reference_requirements_for_manually_backing_up_a_dataset.html
+sidebar: sidebar
+keywords: 
+summary: 'To backup a dataset manually, you must first name and describe the dataset, choose a backup type and options, and set a retention policy.'
+---
+= Requirements for manually backing up a dataset
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+To backup a dataset manually, you must first name and describe the dataset, choose a backup type and options, and set a retention policy.
+
+== Backup name and description
+
+You must assign a name and description to the backup.
+
+The default naming convention for backups is DatasetName_Timestamp. You can change everything in the backup name except the timestamp, which always appears as part of the backup name.
+
+Backup names and descriptions are limited to these characters:
+
+* a to z
+* A to Z
+* 0 to 9
+* _ (underscore)
+* hyphen
+
+== Policy choice
+
+You must decide which policy you want to use for the on-demand backup.
+
+You can select a specific policy in the Backup wizard. You can override the retention or replication policy, as well as scripts associated with the policy, without changing the policy itself.
+
+You can also choose None, which enables you to make an on-demand backup without creating any policies. This option uses the default values for retention policies, replication policies, and scripts.
+
+== Retention value
+
+You can choose to override the retention policy specified in the policy that you selected. If you do this, you must decide what the minimum length of time is that you want to keep your hourly, daily, weekly, monthly, or unlimited backup copies before they are deleted.
+
+You can keep backups based on either time or a specified number of backups. For example, you can keep the 10 most current backups, or you can delete backups older than 15 days.
+
+== Type of backup
+
+You can perform an application-consistent or crash-consistent backup.
+
+== Backup options
+
+You can allow saved state backups.
+
+The default behavior of SnapManager for Hyper-V is to fail a backup if one or more virtual machines cannot be backed up online. If a virtual machine is in the saved state or shut down, you cannot perform an online backup. In some cases, virtual machines are in the saved state or shut down for maintenance, but backups still must proceed, even if an online backup is not possible. To do this, you can move the virtual machines that are in the saved state or shut down to a different dataset, one with a policy that allows saved state backups.
+
+You can also modify the existing policy by selecting the Allow saved state VM backup check box. This allows SnapManager for Hyper-V to back up the virtual machine in the saved state. If you select this option, SnapManager for Hyper-V does not fail the backup when the Hyper-V VSS writer backs up the virtual machine in the saved state or performs an offline backup of the virtual machine. Performing a saved state or offline backup can cause downtime.
+
+The distributed application-consistent backup feature enables multiple VMs running on the partner cluster nodes to be consistent in one single hardware Snapshot copy made from the backup node. This feature is supported for all the VMs running on a CSV 2.0 Windows volume across multiple nodes in a Windows Failover Cluster.
+
+== Secondary storage in a SnapMirror backup
+
+These options enable you to accept options applicable to a secondary storage defined in a SnapMirror relationship. You can select *Update SnapMirror after backup*. Under the Vault label option pane, you can select *Update SnapVault after backup*. If you select *Update SnapVault after backup*, you must choose a vault label from the drop-down menu or enter a custom label.
+
+== Backup scripts
+
+You can override the script options specified in the policy that you selected.
+
+These scripts run on all dataset member hosts, unless you indicate a specific host in the script.
+
+*Related information*
+
+http://technet.microsoft.com/library/cc753637(WS.10).aspx[Microsoft TechNet: Hyper-V]
+
+http://docs.netapp.com/ontap-9/topic/com.netapp.doc.exp-buvault/home.html[ONTAP 9 Volume Backup Using SnapVault Express Guide]

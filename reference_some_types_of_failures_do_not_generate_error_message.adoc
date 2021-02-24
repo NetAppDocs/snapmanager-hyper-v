@@ -1,0 +1,21 @@
+---
+permalink: reference_some_types_of_failures_do_not_generate_error_message.html
+sidebar: sidebar
+keywords: 
+summary: ''
+---
+= Some types of backup failures do not result in partial backup failure
+:icons: font
+:imagesdir: ./media/
+
+* *Issue*
++
+If one virtual machine in a dataset has an error, SnapManager for Hyper-V does not successfully complete the dataset backup, and in some scenarios, does not generate a partial failure. In these situations, the entire dataset backup fails.
+
+* *Example*
++
+In a scenario where one storage system volume exceeds the 255 Snapshot copy limit, SnapManager for Hyper-V generates a partial failure even though the problem is associated with a subset of virtual machines in the dataset.
+
+* *Corrective action*
++
+To successfully complete the backup operation, you need to fix the virtual machine that has the issue. If that is not possible, you can temporarily move the virtual machine out of the dataset, or create a dataset that only contains virtual machines known not to have a problem.

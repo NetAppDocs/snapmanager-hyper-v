@@ -1,0 +1,14 @@
+---
+permalink: concept_what_snapmanager_for_hyper_v_is.html
+sidebar: sidebar
+keywords: 
+summary: 'SnapManager for Hyper-V provides you with a solution for data protection and recovery for Microsoft Hyper-V virtual machines \(VMs\) residing on storage systems running ONTAP.'
+---
+= What SnapManager for Hyper-V is
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+SnapManager for Hyper-V provides you with a solution for data protection and recovery for Microsoft Hyper-V virtual machines (VMs) residing on storage systems running ONTAP.
+
+You can perform application-consistent and crash-consistent dataset backups according to dataset protection policies set by your backup administrator. You can also restore VMs from these backups. Reporting features enable you to monitor the status of the backups and get detailed information about your backup and restore jobs.

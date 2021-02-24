@@ -1,0 +1,18 @@
+---
+permalink: task_viewing_policies.html
+sidebar: sidebar
+keywords: 
+summary: 'You can view policy details associated with a specific dataset.'
+---
+= Viewing policies
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+You can view policy details associated with a specific dataset.
+
+. From the navigation pane, click *Protection* > *Datasets*.
+. Select the dataset that contains the policies that you want to view.
+. From the Policies pane, select the specific policy for which you want to view details.
++
+Information about the policy appears in the Details pane.

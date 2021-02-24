@@ -1,0 +1,68 @@
+---
+permalink: concept_data_management_concepts.html
+sidebar: sidebar
+keywords: 
+summary: 'SnapManager for Hyper-V uses datasets and policies, which enables you to group virtual machines and then apply rules to these groups to govern their behavior. This information is useful in scenarios in which you are using SnapManager for Hyper-V to schedule a backup and to specify a retention policy for the backup.'
+---
+= Data management concepts
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+SnapManager for Hyper-V uses datasets and policies, which enables you to group virtual machines and then apply rules to these groups to govern their behavior. This information is useful in scenarios in which you are using SnapManager for Hyper-V to schedule a backup and to specify a retention policy for the backup.
+
+* *datasets*
++
+A dataset is a group of virtual machines (VMs) that enables you to protect data using retention, scheduling, and replication policies. You can use datasets to group virtual machines that have the same protection requirements. A VM can be part of multiple datasets.
+
+* *Hyper-V parent hosts*
++
+Hyper-V parent hosts are physical servers on which the Hyper-V role is enabled. Hosts that contain virtual machines are added to SnapManager for Hyper-V for protection and recovery. SnapManager for Hyper-V must be installed and running on each Hyper-V parent host.
+
+* *unprotected resources*
++
+Unprotected resources are virtual machines that are not part of any dataset. You can protect these resources by adding them to a dataset.
+
+* *virtual machines*
++
+A virtual machine run on a Hyper-V parent host is a representation of a physical machine, with its own operating system, applications, and hardware.
++
+SnapManager for Hyper-V tracks the globally unique identifier, or GUID, of the virtual machine and not the virtual machine name. If you delete a virtual machine that is protected by SnapManager for Hyper-V, and then create a different virtual machine with the same name, the new virtual machine is not protected, because it has a different GUID.
+
+* *management consoles*
++
+Management consoles are computers on which SnapManager for Hyper-V is installed and running as a client. You can use management consoles to remotely manage SnapManager for Hyper-V operations on a remote Hyper-V parent host.
+
+* *scheduling policies*
++
+Scheduling policies assign backup jobs for particular times, enabling you to automate the scheduling process. You can add multiple scheduling policies, which apply to all virtual machines that are dataset members. SnapManager for Hyper-V uses Windows Scheduler to create scheduled tasks.
+
+* *retention policies*
++
+A retention policy is the way you manage dataset backup retention in SnapManager for Hyper-V. Retention policies determine how long to keep a dataset backup, based on either time or number of backup copies.
++
+The limits that you set in a retention policy ensure that your data backup does not compromise future storage capacity.
++
+You can set the following retention periods in SnapManager for Hyper-V:
+
+ ** One hour
+ ** One day
+ ** One week
+ ** One month
+ ** Unlimited
+*Note:* You can specify a retention period once per dataset.
+
++
+After choosing how often dataset backups are deleted, you can choose to delete either backups that are older than a specified period of time or backups that exceed a maximum total.
++
+If your system appears to retain old backups, check your retention policies. All objects being backed up that share a Snapshot copy must meet the backup deletion criteria in order for the retention policy to trigger the removal of a Snapshot copy.
+
+* *replication policies*
++
+A replication policy determines whether the SnapMirror destination is updated after a successful backup operation. SnapManager for Hyper-V supports volume-based SnapMirror only. You must configure a SnapMirror relationship on the two storage systems before you attempt to perform a SnapMirror update. This is required for both the source and destination.
+
+*Related information*
+
+https://library.netapp.com/ecm/ecm_download_file/ECMP1368826[Data ONTAP 8.2 Data Protection Online Backup and Recovery Guide for 7-Mode]
+
+http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=30049[NetApp Documentation: SnapDrive for Windows (current releases)]
