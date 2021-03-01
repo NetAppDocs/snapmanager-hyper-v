@@ -1,8 +1,8 @@
 ---
 permalink: concept_cluster_shared_volume_2_0_architecture.html
 sidebar: sidebar
-keywords: 
-summary: 'Windows Server 2012 and later provides new features for Cluster Shared Volume \(CSV\) 2.0 that include a new file system, changes to CSV writer, changes to CSV shadow copy, and enhancements to CSV backup.'
+keywords: windows, server, cluster, shared, volume, csv, backup
+summary: Windows Server 2012 and later provides new features for Cluster Shared Volume \(CSV\) 2.0 that include a new file system, changes to CSV writer, changes to CSV shadow copy, and enhancements to CSV backup.
 ---
 = CSV 2.0 in Windows Server 2012 and later
 :icons: font
