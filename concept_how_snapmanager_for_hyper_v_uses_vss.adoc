@@ -1,8 +1,8 @@
 ---
 permalink: concept_how_snapmanager_for_hyper_v_uses_vss.html
 sidebar: sidebar
-keywords: 
-summary: 'SnapManager for Hyper-V provides integration with Microsoft Hyper-V Volume Shadow Copy Service \(VSS\) writer to quiesce a virtual machine \(VM\) before creating an application-consistent Snapshot copy of the VM.'
+keywords: snapmanager, hyper-v, integration, microsoft, hyper-v, volume, shadow, copy, service, vss, quiesce, virtual, machine, vm, snapshot
+summary: SnapManager for Hyper-V provides integration with Microsoft Hyper-V Volume Shadow Copy Service \(VSS\) writer to quiesce a virtual machine \(VM\) before creating an application-consistent Snapshot copy of the VM.
 ---
 = How SnapManager for Hyper-V uses VSS
 :icons: font

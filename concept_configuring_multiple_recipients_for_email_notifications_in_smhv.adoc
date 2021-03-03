@@ -1,8 +1,8 @@
 ---
 permalink: concept_configuring_multiple_recipients_for_email_notifications_in_smhv.html
 sidebar: sidebar
-keywords: 
-summary: 'Multiple email recipients for notifications must be separated by commas.'
+keywords: multiple, email, recipient, notification, comma, configuring, configure
+summary: Multiple email recipients for notifications must be separated by commas.
 ---
 = Configuring email notifications
 :icons: font

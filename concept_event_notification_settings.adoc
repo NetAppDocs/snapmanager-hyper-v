@@ -1,8 +1,8 @@
 ---
 permalink: concept_event_notification_settings.html
 sidebar: sidebar
-keywords: 
-summary: 'You can configure event notification settings to send e-mail, Syslog, and AutoSupport messages if an event occurs.'
+keywords: configure, configuring, event, notification, setting, send, e-mail, syslog, autosupport, message
+summary: You can configure event notification settings to send e-mail, Syslog, and AutoSupport messages if an event occurs.
 ---
 = Event notification settings
 :icons: font
