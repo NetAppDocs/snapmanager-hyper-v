@@ -1,8 +1,8 @@
 ---
 permalink: task_changing_the_snapinfo_directory_path.html
 sidebar: sidebar
-keywords: 
-summary: 'You can control SnapInfo directory path settings by using the Configuration wizard or the SnapInfo settings action.'
+keywords: control, snapinfo, directory, path, setting, configuration, wizard, action, changing, change
+summary: You can control SnapInfo directory path settings by using the Configuration wizard or the SnapInfo settings action.
 ---
 = Changing the SnapInfo directory path
 :icons: font
@@ -23,6 +23,7 @@ The SnapInfo Settings dialog box opens.
 
 . Select the storage type from the options shown:
 +
+[options="header"]
 |===
 | Option| Description
 a|

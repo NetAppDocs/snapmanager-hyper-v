@@ -1,8 +1,8 @@
 ---
 permalink: task_viewing_a_report.html
 sidebar: sidebar
-keywords: 
-summary: 'You can view a report about a dataset or virtual machine resource managed in SnapManager for Hyper-V.'
+keywords: view, report, dataset, virtual, machine, resource, manage, snapmanager, hyper-v
+summary: You can view a report about a dataset or virtual machine resource managed in SnapManager for Hyper-V.
 ---
 = Viewing a dataset report
 :icons: font
@@ -16,6 +16,7 @@ You can view a report about a dataset or virtual machine resource managed in Sna
 . From the Reports pane, click either the Backup tab or Recovery tab.
 . Select the report that you want to view and click *View report*.
 +
+[options="header"]
 |===
 | If you want to view a...| Then...
 a|

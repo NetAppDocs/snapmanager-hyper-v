@@ -1,8 +1,8 @@
 ---
 permalink: reference_requirements_for_restoring_a_virtual_machine.html
 sidebar: sidebar
-keywords: 
-summary: 'To restore a virtual machine from a backup copy, you must first determine how you want to restore the backup copy.'
+keywords: restore, virtual, machine, backup, copy, requirement
+summary: To restore a virtual machine from a backup copy, you must first determine how you want to restore the backup copy.
 ---
 = Requirements for restoring a virtual machine
 :icons: font

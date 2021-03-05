@@ -1,8 +1,8 @@
 ---
 permalink: task_verifying_that_the_vss_hardware_provider_was_used_successfully.html
 sidebar: sidebar
-keywords: 
-summary: 'You can verify that the Data ONTAP VSS Hardware Provider was used successfully after a Snapshot copy was made.'
+keywords: verify, data, ontap, vss, hardware, provider, successful, snapshot, copy
+summary: You can verify that the Data ONTAP VSS Hardware Provider was used successfully after a Snapshot copy was made
 ---
 = Verifying that the VSS Hardware Provider was used successfully
 :icons: font
@@ -13,6 +13,7 @@ You can verify that the Data ONTAP VSS Hardware Provider was used successfully a
 
 . Navigate to *System Tools* > *Event Viewer* > *Application* in MMC and look for an event with the following values:
 +
+[options="header"]
 |===
 | Source| Event ID| Description
 a|

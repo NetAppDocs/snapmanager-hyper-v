@@ -1,8 +1,8 @@
 ---
 permalink: reference_restoring_from_a_backup_after_failback.html
 sidebar: sidebar
-keywords: 
-summary: ''
+keywords: restore, restoring, backup, failback
+summary: Restoring from a backup after failback.
 ---
 = Restoring from a backup after failback
 :icons: font

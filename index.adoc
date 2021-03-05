@@ -1,8 +1,8 @@
 ---
 permalink: index.html
 sidebar: sidebar
-keywords: 
-summary: ''
+keywords: index
+summary: Index
 ---
 = Installation and Administration Guide
 :icons: font

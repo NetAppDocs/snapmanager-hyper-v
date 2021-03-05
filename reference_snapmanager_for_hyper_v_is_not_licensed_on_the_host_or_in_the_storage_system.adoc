@@ -1,8 +1,8 @@
 ---
 permalink: reference_snapmanager_for_hyper_v_is_not_licensed_on_the_host_or_in_the_storage_system.html
 sidebar: sidebar
-keywords: 
-summary: ''
+keywords: snapmanager, hyper-v, license, host, storage, system
+summary: SnapManager for Hyper-V is not licensed on the host or in the Storage System.
 ---
 = SnapManager for Hyper-V is not licensed on the host or in the Storage System
 :icons: font

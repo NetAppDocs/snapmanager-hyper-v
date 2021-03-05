@@ -1,8 +1,8 @@
 ---
 permalink: task_deleting_a_report.html
 sidebar: sidebar
-keywords: 
-summary: 'You can delete one or more reports when they are no longer necessary.'
+keywords: delete, report, deleting
+summary: You can delete one or more reports when they are no longer necessary.
 ---
 = Deleting a report
 :icons: font

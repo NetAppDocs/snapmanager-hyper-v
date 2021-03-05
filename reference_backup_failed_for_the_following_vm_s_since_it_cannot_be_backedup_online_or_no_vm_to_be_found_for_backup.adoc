@@ -1,16 +1,16 @@
 ---
 permalink: reference_backup_failed_for_the_following_vm_s_since_it_cannot_be_backedup_online_or_no_vm_to_be_found_for_backup.html
 sidebar: sidebar
-keywords: 
-summary: ''
+keywords: backup, fail, follow, vm, backed, up, online
+summary: Backup Failed for the following VM(s) since it cannot be backed up online or No VM to be found for backup.
 ---
-= Backup Failed for the following VM(s) since it cannot be backedup online or No VM to be found for backup
+= Backup Failed for the following VM(s) since it cannot be backed up online or No VM to be found for backup
 :icons: font
 :imagesdir: ./media/
 
 * *Message*
 +
-Backup Failed for the following VM(s) since it cannot be backedup online or NO VM to be found for backup
+Backup Failed for the following VM(s) since it cannot be backed up online or NO VM to be found for backup
 
 * *Description*
 +

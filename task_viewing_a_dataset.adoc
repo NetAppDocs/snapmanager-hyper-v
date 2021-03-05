@@ -1,8 +1,8 @@
 ---
 permalink: task_viewing_a_dataset.html
 sidebar: sidebar
-keywords: 
-summary: 'You can view the virtual machines associated with a dataset.'
+keywords: view, virtual, machine, associate, dataset
+summary: You can view the virtual machines associated with a dataset.
 ---
 = Viewing a dataset
 :icons: font

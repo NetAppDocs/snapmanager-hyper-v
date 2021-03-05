@@ -1,8 +1,8 @@
 ---
 permalink: task_exporting_the_vm_from_a_non_ontap_host.html
 sidebar: sidebar
-keywords: 
-summary: 'You must first export a virtual machine \(VM\) from a non-ONTAP host before you can import it to an ONTAP host.'
+keywords: export, virtual, machine, vm, non-ontap, host, import
+summary: You must first export a virtual machine \(VM\) from a non-ONTAP host before you can import it to an ONTAP host.
 ---
 = Exporting the VM from a non-ONTAP host
 :icons: font

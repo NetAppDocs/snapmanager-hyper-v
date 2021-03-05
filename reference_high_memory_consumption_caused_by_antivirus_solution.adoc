@@ -1,8 +1,8 @@
 ---
 permalink: reference_high_memory_consumption_caused_by_antivirus_solution.html
 sidebar: sidebar
-keywords: 
-summary: ''
+keywords: high, memeory, consumption, cause, antivirus, solution
+summary: High memory consumption caused by antivirus solution.
 ---
 = High memory consumption caused by antivirus solution
 :icons: font

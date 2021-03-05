@@ -1,8 +1,8 @@
 ---
 permalink: reference_mbr_luns_unsupported_in_snapmanager_for_hyper_v.html
 sidebar: sidebar
-keywords: 
-summary: ''
+keywords: mbr, lun, unsupported, snapmanager, hyper-v
+summary: MBR LUNs unsupported in SnapManager for Hyper-V.
 ---
 = MBR LUNs unsupported in SnapManager for Hyper-V
 :icons: font

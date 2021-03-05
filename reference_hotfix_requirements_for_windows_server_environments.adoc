@@ -1,8 +1,8 @@
 ---
 permalink: reference_hotfix_requirements_for_windows_server_environments.html
 sidebar: sidebar
-keywords: 
-summary: 'You must manually install hotfixes to Microsoft Windows Server operating system environments.'
+keywords: manual, install, hotfixes, microsoft, windows, server, operate, operating, system, environment
+summary: You must manually install hotfixes to Microsoft Windows Server operating system environments.
 ---
 = Hotfix requirements for Windows Server environments
 :icons: font

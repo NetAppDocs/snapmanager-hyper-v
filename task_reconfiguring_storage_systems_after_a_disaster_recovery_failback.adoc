@@ -1,8 +1,8 @@
 ---
 permalink: task_reconfiguring_storage_systems_after_a_disaster_recovery_failback.html
 sidebar: sidebar
-keywords: 
-summary: 'After failing over to a secondary storage system, SnapManager for Hyper-V completes disaster recovery by failing back to the original primary storage system. Failing back restores primary storage function to the original primary storage site after its storage systems are reenabled or replaced.'
+keywords: fall, secondary, storage, system, snapmanager, hyper-v, complete, disaster, recovery, original, primary, storage, failback, reconfigure, reconfiguring
+summary: After failing over to a secondary storage system, SnapManager for Hyper-V completes disaster recovery by failing back to the original primary storage system. Failing back restores primary storage function to the original primary storage site after its storage systems are reenabled or replaced.
 ---
 = Reconfiguring storage systems after a disaster recovery failback
 :icons: font
@@ -13,6 +13,7 @@ After failing over to a secondary storage system, SnapManager for Hyper-V comple
 
 . Depending on the condition of the primary storage system, take one of the following actions:
 +
+[options="header"]
 |===
 | If the primary storage system is...| Then...
 a|
@@ -31,6 +32,7 @@ Provision a new storage system.
  .. Using SnapDrive on the secondary storage system, initiate a SnapMirror update for each of the LUNs or SMB shares on the secondary storage system.
 . Depending on your configuration, take one of the following actions:
 +
+[options="header"]
 |===
 | If the primary storage system is...| Then...
 a|
@@ -53,6 +55,7 @@ Unmount the Data Protection (DP) volume, mount the DP volume as rewriteable, ver
 
 . Reconfigure SnapInfo based on your environment:
 +
+[options="header"]
 |===
 | If your configuration is...| Then...
 a|
@@ -72,6 +75,7 @@ For NAS, if an access is denied error occurs, or if you cannot browse to the exp
  .. Get the backup copies for each VM by using the Get-Backup cmdlet to get the backup copies for each VM.
 . To restore, use Restore-Backup with the VM GUID and the backup copy with the following parameters:
 +
+[options="header"]
 |===
 | To restore from...| Enter this command...
 a|

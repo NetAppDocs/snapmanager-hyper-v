@@ -1,8 +1,8 @@
 ---
 permalink: task_viewing_a_hyper_v_parent_host_or_host_cluster.html
 sidebar: sidebar
-keywords: 
-summary: 'You can view configuration information about a specific Hyper-V parent host or host cluster so that you can monitor its status.'
+keywords: view, configuration, information, specific, hyper-v, parent, host, cluster, monitor, status
+summary: You can view configuration information about a specific Hyper-V parent host or host cluster so that you can monitor its status.
 ---
 = Viewing a Hyper-V parent host or host cluster
 :icons: font

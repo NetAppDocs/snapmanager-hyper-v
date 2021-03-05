@@ -1,8 +1,8 @@
 ---
 permalink: reference_backup_reports_use_management_console_time_zone_information_in_report_name.html
 sidebar: sidebar
-keywords: 
-summary: ''
+keywords: backup, report, use, management, console, time, zone, information, report, name
+summary: Backup reports use management console time zone information in report name.
 ---
 = Backup reports use management console time zone information in report name
 :icons: font

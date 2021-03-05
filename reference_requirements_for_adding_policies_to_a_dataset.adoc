@@ -1,8 +1,8 @@
 ---
 permalink: reference_requirements_for_adding_policies_to_a_dataset.html
 sidebar: sidebar
-keywords: 
-summary: 'You must meet specific requirements when you want to apply policies to datasets for backup or restore functionality. You can add multiple retention, scheduling, and replication policies to the same dataset.'
+keywords: specific, requirement, apply, policies, policy, backup, restore, function, multiple, retention, replication, dataset
+summary: You must meet specific requirements when you want to apply policies to datasets for backup or restore functionality. You can add multiple retention, scheduling, and replication policies to the same dataset.
 ---
 = Requirements for adding policies to a dataset
 :icons: font

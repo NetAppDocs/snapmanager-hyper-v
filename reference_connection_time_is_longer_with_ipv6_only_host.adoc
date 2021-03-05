@@ -1,8 +1,8 @@
 ---
 permalink: reference_connection_time_is_longer_with_ipv6_only_host.html
 sidebar: sidebar
-keywords: 
-summary: ''
+keywords: connection, time, ipv6-only, host
+summary: Connection time is longer with IPv6-only host.
 ---
 = Connection time is longer with IPv6-only host
 :icons: font

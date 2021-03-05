@@ -1,8 +1,8 @@
 ---
 permalink: reference_some_types_of_failures_do_not_generate_error_message.html
 sidebar: sidebar
-keywords: 
-summary: ''
+keywords: backup, failure, result, partial
+summary: Some types of backup failures do not result in partial backup failure.
 ---
 = Some types of backup failures do not result in partial backup failure
 :icons: font

@@ -1,15 +1,15 @@
 ---
 permalink: concept_snapmanager_for_hyper_v_limitations.html
 sidebar: sidebar
-keywords: 
-summary: 'It is important that you understand that some features are not supported in SnapManager 2.1and later for Hyper-V .'
+keywords: important, understand, snapmanager, hyper-v, limitation
+summary: It is important that you understand that some features are not supported in SnapManager 2.1 and later for Hyper-V .
 ---
 = List of SnapManager for Hyper-V limitations
 :icons: font
 :imagesdir: ./media/
 
 [.lead]
-It is important that you understand that some features are not supported in SnapManager 2.1and later for Hyper-V .
+It is important that you understand that some features are not supported in SnapManager 2.1 and later for Hyper-V .
 
 * Canceling, suspending, and resuming backup and restore jobs is not supported.
 * Policies cannot be copied across datasets.

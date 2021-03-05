@@ -1,8 +1,8 @@
 ---
 permalink: reference_dataset_backup_might_fail_with_a_partial_writer_error.html
 sidebar: sidebar
-keywords: 
-summary: ''
+keywords: vss, requestor, backup, component, partial, writer, error
+summary: Vss Requestor - Backup Components failed with partial writer error.
 ---
 = Vss Requestor - Backup Components failed with partial writer error
 :icons: font

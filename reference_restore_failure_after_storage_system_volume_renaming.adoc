@@ -1,8 +1,8 @@
 ---
 permalink: reference_restore_failure_after_storage_system_volume_renaming.html
 sidebar: sidebar
-keywords: 
-summary: ''
+keywords: restore, failure, storage, system, volume, renaming, rename
+summary: Restore failure after storage system volume renaming.
 ---
 = Restore failure after storage system volume renaming
 :icons: font

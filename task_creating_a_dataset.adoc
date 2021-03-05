@@ -1,8 +1,8 @@
 ---
 permalink: task_creating_a_dataset.html
 sidebar: sidebar
-keywords: 
-summary: 'You can create datasets for virtual machine resources that share the same protection requirements. You can add virtual machines to multiple datasets, as necessary.'
+keywords: create, creating, dataset, virtual, machine, resource, protection, requirement
+summary: You can create datasets for virtual machine resources that share the same protection requirements. You can add virtual machines to multiple datasets, as necessary.
 ---
 = Creating a dataset
 :icons: font

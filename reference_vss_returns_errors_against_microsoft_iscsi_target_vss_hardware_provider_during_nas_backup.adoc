@@ -1,8 +1,8 @@
 ---
 permalink: reference_vss_returns_errors_against_microsoft_iscsi_target_vss_hardware_provider_during_nas_backup.html
 sidebar: sidebar
-keywords: 
-summary: ''
+keywords: vss, return, error, micorsoft, iscsi, target, hardware, provider, nas, backup
+summary: VSS returns errors against Microsoft iSCSI Target VSS Hardware Provider during NAS backup.
 ---
 = VSS returns errors against Microsoft iSCSI Target VSS Hardware Provider during NAS backup
 :icons: font

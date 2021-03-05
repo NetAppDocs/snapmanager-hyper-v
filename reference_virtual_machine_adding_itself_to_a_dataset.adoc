@@ -1,8 +1,8 @@
 ---
 permalink: reference_virtual_machine_adding_itself_to_a_dataset.html
 sidebar: sidebar
-keywords: 
-summary: ''
+keywords: virtual, machine, managing, manage, itself
+summary: Virtual machine managing itself.
 ---
 = Virtual machine managing itself
 :icons: font

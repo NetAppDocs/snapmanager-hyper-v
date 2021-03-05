@@ -1,8 +1,8 @@
 ---
 permalink: reference_vss_requestor_backup_components_failed_failed_to_call_keep_snapshot_set.html
 sidebar: sidebar
-keywords: 
-summary: ''
+keywords: vss, requestor, backup, component, fail, call, snapshot, set
+summary: Vss Requestor - Backup Components failed. Failed to call keep snapshot set.
 ---
 = Vss Requestor - Backup Components failed. Failed to call keep snapshot set.
 :icons: font

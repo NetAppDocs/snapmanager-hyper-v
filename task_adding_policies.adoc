@@ -1,8 +1,8 @@
 ---
 permalink: task_adding_policies.html
 sidebar: sidebar
-keywords: 
-summary: 'You can add retention, scheduling, and replication policies, as well as scripts, to your datasets so that you can protect your data.'
+keywords: add, retention, schedule, scheduling, replication, policies, policy, script, dataset, data, protect
+summary: You can add retention, scheduling, and replication policies, as well as scripts, to your datasets so that you can protect your data.
 ---
 = Adding policies
 :icons: font

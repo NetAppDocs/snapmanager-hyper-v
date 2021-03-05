@@ -1,8 +1,8 @@
 ---
 permalink: reference_secondary_machine_unable_to_delete_backups_after_failover.html
 sidebar: sidebar
-keywords: 
-summary: ''
+keywords: deleting, delete, backup, failover
+summary: Deleting backups after failover.
 ---
 = Deleting backups after failover
 :icons: font

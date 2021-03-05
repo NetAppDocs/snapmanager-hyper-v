@@ -1,8 +1,8 @@
 ---
 permalink: reference_error_vss_requestor_backup_components_failed_an_expected_disk_did_not_arrive_in_the_system.html
 sidebar: sidebar
-keywords: 
-summary: ''
+keywords: vss, requestor, backup, component, fail, disk, system
+summary: Vss Requestor - Backup Components failed. An expected disk did not arrive in the system
 ---
 = Vss Requestor - Backup Components failed. An expected disk did not arrive in the system
 :icons: font

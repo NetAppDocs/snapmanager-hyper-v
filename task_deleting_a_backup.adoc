@@ -1,8 +1,8 @@
 ---
 permalink: task_deleting_a_backup.html
 sidebar: sidebar
-keywords: 
-summary: 'You can delete one or more backups associated with either a dataset or a virtual machine.'
+keywords: delete, backup, associate, dataset, virtual, machine, deleting
+summary: You can delete one or more backups associated with either a dataset or a virtual machine.
 ---
 = Deleting a backup
 :icons: font
