@@ -2,7 +2,7 @@
 permalink: reference_error_1935_an_error_occurred_during_the_installation_of_assembly_component.html
 sidebar: sidebar
 keywords: error, 1935, occur, installation, assembly, component
-summary: Error 1935.
+summary: Error 1935
 ---
 = Error 1935. An error occurred during the installation of assembly component
 :icons: font

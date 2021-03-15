@@ -2,7 +2,7 @@
 permalink: task_reconfiguring_storage_systems_after_a_disaster_recovery_failback.html
 sidebar: sidebar
 keywords: fall, secondary, storage, system, snapmanager, hyper-v, complete, disaster, recovery, original, primary, storage, failback, reconfigure, reconfiguring
-summary: After failing over to a secondary storage system, SnapManager for Hyper-V completes disaster recovery by failing back to the original primary storage system. Failing back restores primary storage function to the original primary storage site after its storage systems are reenabled or replaced.
+summary: "After failing over to a secondary storage system, SnapManager for Hyper-V completes disaster recovery by failing back to the original primary storage system."
 ---
 = Reconfiguring storage systems after a disaster recovery failback
 :icons: font

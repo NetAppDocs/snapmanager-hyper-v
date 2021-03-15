@@ -2,7 +2,7 @@
 permalink: task_viewing_a_host_report.html
 sidebar: sidebar
 keywords: view, report, host, manage, snapmanager, hyper-v
-summary: You can view a report about a host managed in SnapManager for Hyper-V.
+summary: "You can view a report about a host managed in SnapManager for Hyper-V."
 ---
 = Viewing a host report
 :icons: font

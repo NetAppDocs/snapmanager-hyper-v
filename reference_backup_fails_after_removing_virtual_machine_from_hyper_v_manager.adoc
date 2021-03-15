@@ -2,7 +2,7 @@
 permalink: reference_backup_fails_after_removing_virtual_machine_from_hyper_v_manager.html
 sidebar: sidebar
 keywords: backup, fail, remove, virtual, machine, hyper-v, manager
-summary: Backup fails after you remove a virtual machine from Hyper-V Manager.
+summary: "Backup fails after you remove a virtual machine from Hyper-V Manager."
 ---
 = Backup fails after you remove a virtual machine from Hyper-V Manager
 :icons: font

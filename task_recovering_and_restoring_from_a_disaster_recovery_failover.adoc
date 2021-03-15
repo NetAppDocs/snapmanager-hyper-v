@@ -2,7 +2,7 @@
 permalink: task_recovering_and_restoring_from_a_disaster_recovery_failover.html
 sidebar: sidebar
 keywords: recover, disaster, snapmanager, hyper-v, fail, secondary, system, storage, powershell, restore, restoring, failover, recovery
-summary: To recover from a disaster, SnapManager for Hyper-V must first fail over to a secondary storage system. Failing over involves a series of manual steps in PowerShell.
+summary: "To recover from a disaster, SnapManager for Hyper-V must first fail over to a secondary storage system. Failing over involves a series of manual steps in PowerShell."
 ---
 = Recovering and restoring from a disaster recovery failover
 :icons: font

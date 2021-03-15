@@ -2,7 +2,7 @@
 permalink: task_downloading_snapmanager_for_hyper_v.html
 sidebar: sidebar
 keywords: install, snapmanager, hyper-v, download, software, package, netapp, support, site
-summary: Before installing SnapManager for Hyper-V, you must download the software package from the NetApp Support Site.
+summary: "Before installing SnapManager for Hyper-V, you must download the software package from the NetApp Support Site."
 ---
 = Downloading SnapManager for Hyper-V
 :icons: font

@@ -2,7 +2,7 @@
 permalink: reference_either_the_specified_vm_s_are_not_present_or_they_cannot_be_backed_up_online.html
 sidebar: sidebar
 keywords: vm, present, backed, up, online
-summary: Either the specified VM(s) are not present or they cannot be backed up online
+summary: "Either the specified VM(s) are not present or they cannot be backed up online"
 ---
 = Either the specified VM(s) are not present or they cannot be backed up online
 :icons: font

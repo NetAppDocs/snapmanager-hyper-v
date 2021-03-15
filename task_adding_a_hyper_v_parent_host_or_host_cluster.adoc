@@ -2,7 +2,7 @@
 permalink: task_adding_a_hyper_v_parent_host_or_host_cluster.html
 sidebar: sidebar
 keywords: add, hyper-v, parent, host, cluster, back, up, restore, virtua, machine
-summary: You can add a Hyper-V parent host or host cluster to back up and restore your virtual machines.
+summary: "You can add a Hyper-V parent host or host cluster to back up and restore your virtual machines."
 ---
 = Adding a Hyper-V parent host or host cluster
 :icons: font

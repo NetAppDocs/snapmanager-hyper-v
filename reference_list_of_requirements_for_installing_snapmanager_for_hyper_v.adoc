@@ -2,7 +2,7 @@
 permalink: reference_list_of_requirements_for_installing_snapmanager_for_hyper_v.html
 sidebar: sidebar
 keywords: environment, hardware, software, ontap, license, licensing, requirement, install, snapmanager, hyper-v, windows, .net, 4.5
-summary: Your environment must meet all hardware, software, ONTAP, and licensing requirements before you can install SnapManager for Hyper-V. The installer stops if the requirements for the minimum Windows operating system and .Net 4.5 are not met.
+summary: "Your environment must meet all hardware, software, ONTAP, and licensing requirements before you can install SnapManager for Hyper-V." 
 ---
 = List of requirements for installing SnapManager for Hyper-V
 :icons: font

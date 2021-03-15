@@ -2,7 +2,7 @@
 permalink: reference_error_vss_requestor_backup_components_failed.html
 sidebar: sidebar
 keywords: error, vss, requestor, backup, component, fail
-summary: Error: Vss Requestor - Backup components failed.
+summary: "Error: Vss Requestor - Backup components failed."
 ---
 = Error: Vss Requestor - Backup components failed
 :icons: font

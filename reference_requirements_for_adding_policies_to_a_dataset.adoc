@@ -72,7 +72,7 @@ These scripts run on all dataset member hosts unless you indicate a specific ser
 
 Backup scripts run on each node in the dataset. You can set the dataset policy to specify the name of the host on which you want to run the scripts. The policy is processed on each node in the cluster where the VM to be backed up is running.
 
-image::../media/smhv_policywizard_specified_host.gif[]
+image::smhv_policywizard_specified_host.gif[]
 
 You can use the following environment variables in arguments for backup postscripts:
 

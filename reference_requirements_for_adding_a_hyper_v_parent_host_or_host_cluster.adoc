@@ -2,7 +2,7 @@
 permalink: reference_requirements_for_adding_a_hyper_v_parent_host_or_host_cluster.html
 sidebar: sidebar
 keywords: configuration, information, available, parent, host, cluster, snapmanager, hyper-v
-summary: You must have all necessary configuration information available before adding a parent host or host cluster to SnapManager for Hyper-V.
+summary: "You must have all necessary configuration information available before adding a parent host or host cluster to SnapManager for Hyper-V."
 ---
 = Requirements for adding a Hyper-V parent host or host cluster
 :icons: font

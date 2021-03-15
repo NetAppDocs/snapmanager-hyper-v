@@ -2,7 +2,7 @@
 permalink: reference_command_line_switch_descriptions.html
 sidebar: sidebar
 keywords: command, line, switch, perform, silent, installation, enable, script, snapmanager, hyper-v
-summary: You can use command line switches to perform a silent installation, which enables you to use an installation script to install SnapManager for Hyper-V.
+summary: "You can use command line switches to perform a silent installation, which enables you to use an installation script to install SnapManager for Hyper-V."
 ---
 = List and description of command line switches for silent installation
 :icons: font

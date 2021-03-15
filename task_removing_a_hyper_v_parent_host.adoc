@@ -2,7 +2,7 @@
 permalink: task_removing_a_hyper_v_parent_host.html
 sidebar: sidebar
 keywords: remove, hyper-v, parent, host, cluster, snapmanager, removing
-summary: You can remove a Hyper-V parent host or parent host cluster when you no longer want to manage it using SnapManager for Hyper-V.
+summary: "You can remove a Hyper-V parent host or parent host cluster when you no longer want to manage it using SnapManager for Hyper-V."
 ---
 = Removing a Hyper-V parent host or parent host cluster
 :icons: font

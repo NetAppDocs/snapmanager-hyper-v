@@ -19,16 +19,16 @@ NOTE: Cluster Rolling upgrade is supported from Windows Server 2016 to Windows S
 . Select the LUN that was mapped to Windows 2012 R2.
 . Click *Edit* and select Initiator Groups.
 +
-image::../media/mixed_os_mode_3.gif[]
+image::mixed_os_mode_3.gif[]
 
 . Uncheck the igroup of the removed node from the cluster.
 . Add a new Initiator Group for all the newly added Windows 2016 nodes.
 +
-image::../media/mixed_os_mode_4.gif[]
+image::mixed_os_mode_4.gif[]
 
 . Select the checkbox beside the newly created initiator group to map the LUN to the Windows 2016 host that was added to the cluster.
 +
-image::../media/mixed_os_mode_6.gif[]
+image::mixed_os_mode_6.gif[]
 
 . Repeat Steps 4 and 6 to map every LUN to Windows 2016 nodes.
 +
@@ -36,8 +36,8 @@ All LUNs should be visible in the Windows 2016 node.
 
 . Rescan the disks from the disk management tool in the Windows 2016 nodes.
 +
-image::../media/mixed_os_mode_8.gif[]
+image::mixed_os_mode_8.gif[]
 
 . Add the storage management LIF in the new Windows 2016 SnapDrive transport protocol settings (TPS) and then refresh the disks.
 +
-image::../media/mixed_os_mode_9.gif[]
+image::mixed_os_mode_9.gif[]

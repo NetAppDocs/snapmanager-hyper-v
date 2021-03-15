@@ -2,7 +2,7 @@
 permalink: concept_report_path_settings.html
 sidebar: sidebar
 keywords: configure, report, path, setting, store, snapmanager, hyper-v, operation, configure, virtual, machine, dataset
-summary: 'You can configure report path settings so that you can store reports for SnapManager for Hyper-V operations. You must configure the report path settings before you can add virtual machine resources to a dataset.'
+summary: "You can configure report path settings so that you can store reports for SnapManager for Hyper-V operations. You must configure the report path settings before you can add virtual machine resources to a dataset."
 ---
 = Report path settings
 :icons: font

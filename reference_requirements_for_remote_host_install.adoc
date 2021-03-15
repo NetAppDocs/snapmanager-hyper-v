@@ -2,7 +2,7 @@
 permalink: reference_requirements_for_remote_host_install.html
 sidebar: sidebar
 keywords: remote, host, install, wizard, snapmanager, hyper-v, host, node, require, detail, requirement
-summary: Before using the Remote Host Install wizard to remotely install SnapManager for Hyper-V on a host or node, you must gather some required host details.
+summary: "Before using the Remote Host Install wizard to remotely install SnapManager for Hyper-V on a host or node, you must gather some required host details."
 ---
 = Requirements for using the Remote Host Install wizard
 :icons: font

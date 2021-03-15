@@ -2,7 +2,7 @@
 permalink: reference_license_requirements.html
 sidebar: sidebar
 keywords: run, snapmanager, hyper-v, select, host-based, storage, system, license, installation, license
-summary: To run SnapManager for Hyper-V, you must select either host-based or storage system licenses during the installation of the licenses.
+summary: "To run SnapManager for Hyper-V, you must select either host-based or storage system licenses during the installation of the licenses."
 ---
 = License requirements
 :icons: font

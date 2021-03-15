@@ -2,7 +2,7 @@
 permalink: task_uninstalling_snapmanager_for_hyper_v.html
 sidebar: sidebar
 keywords: snapmanager, hyper-v, windows, server, control, panel, uninstall, application, operating, system, remote, host, protection
-summary: You can uninstall SnapManager for Hyper-V from the Windows server using the Control Panel uninstall application for your operating system. You can remotely uninstall SnapManager for Hyper-V on standalone and cluster nodes or hosts using the Remote Host Install wizard from the Actions pane in the Protection window.
+summary: "You can uninstall SnapManager for Hyper-V from the Windows server using the Control Panel uninstall application for your operating system." 
 ---
 = Uninstalling SnapManager for Hyper-V
 :icons: font

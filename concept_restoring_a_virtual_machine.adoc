@@ -2,7 +2,7 @@
 permalink: concept_restoring_a_virtual_machine.html
 sidebar: sidebar
 keywords: snapmanager, hyper-v, restore, virtual, machine, vm, cluster, restoring, backup, copy
-summary: You can use SnapManager for Hyper-V to restore a virtual machine \(VM\) from a backup copy. You can also restore a VM that is part of a cluster. SnapManager for Hyper-V determines the appropriate node in the cluster to which to restore the VM.
+summary: "You can use SnapManager for Hyper-V to restore a virtual machine (VM) from a backup copy. You can also restore a VM that is part of a cluster. SnapManager for Hyper-V determines the appropriate node in the cluster to which to restore the VM."
 ---
 = Restoring a virtual machine from a backup copy
 :icons: font

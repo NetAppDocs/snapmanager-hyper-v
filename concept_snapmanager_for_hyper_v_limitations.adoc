@@ -2,7 +2,7 @@
 permalink: concept_snapmanager_for_hyper_v_limitations.html
 sidebar: sidebar
 keywords: important, understand, snapmanager, hyper-v, limitation
-summary: It is important that you understand that some features are not supported in SnapManager 2.1 and later for Hyper-V .
+summary: It is important that you understand that some features are not supported in SnapManager 2.1 and later for Hyper-V.
 ---
 = List of SnapManager for Hyper-V limitations
 :icons: font

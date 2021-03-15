@@ -2,7 +2,7 @@
 permalink: concept_overview_of_vss_components.html
 sidebar: sidebar
 keywords: microsoft, windows, server, volume, shadow, copy, service, vss, coordinate, data, backup, application, storage, management, consisten, backup
-summary: You can use Microsoft Windows Server Volume Shadow Copy Service \(VSS\) coordinate data servers, backup applications, and storage management software to support the creation and management of consistent backups.
+summary: "You can use Microsoft Windows Server Volume Shadow Copy Service (VSS) coordinate data servers, backup applications, and storage management software to support the creation and management of consistent backups."
 ---
 = VSS components
 :icons: font

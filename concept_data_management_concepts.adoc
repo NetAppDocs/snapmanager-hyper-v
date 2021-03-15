@@ -2,7 +2,7 @@
 permalink: concept_data_management_concepts.html
 sidebar: sidebar
 keywords: snapmanager, hyper-v, dataset, policies, policy, enable, group, virtual, machine, apply, rule, retention, data, management, concept
-summary: SnapManager for Hyper-V uses datasets and policies, which enables you to group virtual machines and then apply rules to these groups to govern their behavior. This information is useful in scenarios in which you are using SnapManager for Hyper-V to schedule a backup and to specify a retention policy for the backup.
+summary: "SnapManager for Hyper-V uses datasets and policies, which enables you to group virtual machines and then apply rules to these groups to govern their behavior." 
 ---
 = Data management concepts
 :icons: font

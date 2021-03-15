@@ -11,7 +11,7 @@ summary: The SnapManager for Hyper-V dashboard displays an overview of resources
 [.lead]
 The SnapManager for Hyper-V dashboard displays an overview of resources that are currently being protected, as well as those that are not protected. You can select different segments of either the VM Protection Status pie chart or the Job History bar graph to view general information about the status of your jobs, resources, and history.
 
-image::../media/smhv_dashboard.gif[]
+image::smhv_dashboard.gif[]
 
 * *VM protection status*
 +
