@@ -2,7 +2,7 @@
 permalink: concept_creating_and_managing_backup_jobs_in_snapmanager_for_hyper_v.html
 sidebar: sidebar
 keywords: create, monitor, on-demand, backup, manage, schedule, snapmanager, hyper-v, creating, managing, application, crash
-summary: You can create and monitor on-demand backups or managed scheduled backups in SnapManager for Hyper-V. You can also perform two types of backup jobs with SnapManager for Hyper-V: application consistent and crash consistent.
+summary: "You can create and monitor on-demand backups or managed scheduled backups in SnapManager for Hyper-V."
 ---
 = Creating and managing backup jobs in SnapManager for Hyper-V
 :icons: font

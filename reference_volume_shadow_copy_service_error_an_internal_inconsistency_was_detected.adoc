@@ -2,7 +2,7 @@
 permalink: reference_volume_shadow_copy_service_error_an_internal_inconsistency_was_detected.html
 sidebar: sidebar
 keywords: volume, shadow, copy, service, error, internal, inconsistency, detect
-summary: Volume Shadow Copy Service error: An internal inconsistency was detected.
+summary: "Volume Shadow Copy Service error: An internal inconsistency was detected."
 ---
 = Volume Shadow Copy Service error: An internal inconsistency was detected
 :icons: font

@@ -9,7 +9,7 @@ summary: "Before installing SnapManager for Hyper-V, you must download the softw
 :imagesdir: ./media/
 
 [.lead]
-Before installing SnapManager for Hyper-V, you must download the software package from the NetApp Support Site.
+Before installing SnapManager for Hyper-V, you must download the software package from the link:http://mysupport.netapp.com[NetApp Support Site].
 
 You must have login credentials for the NetApp Support Site.
 
@@ -23,7 +23,3 @@ You must have login credentials for the NetApp Support Site.
 . Save the SnapManager for Hyper-V file to a local or network directory.
 . Click *Save File*.
 . Verify the checksum to ensure that the software downloaded correctly.
-
-*Related information*
-
-http://mysupport.netapp.com[NetApp Support]
