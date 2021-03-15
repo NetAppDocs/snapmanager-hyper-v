@@ -1,8 +1,8 @@
 ---
 permalink: task_viewing_installed_vss_providers.html
 sidebar: sidebar
-keywords: 
-summary: 'You can view the VSS providers installed on your host.'
+keywords: view, vss, provider, install, host
+summary: You can view the VSS providers installed on your host.
 ---
 = Viewing installed VSS providers
 :icons: font

@@ -1,8 +1,8 @@
 ---
 permalink: task_delete_the_previously_exported_vm_from_the_non_data_ontap_host.html
 sidebar: sidebar
-keywords: 
-summary: 'After you have imported the virtual machine \(VM\) successfully, you can delete the VM from the non-ONTAP host.'
+keywords: import, virtual, machine, vm, successful, delete, non-ontap, host, deleting
+summary: "After you have imported the virtual machine (VM) successfully, you can delete the VM from the non-ONTAP host."
 ---
 = Deleting the previously exported VM from the non-ONTAP host
 :icons: font

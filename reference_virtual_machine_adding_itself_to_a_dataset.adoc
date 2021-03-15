@@ -1,8 +1,8 @@
 ---
 permalink: reference_virtual_machine_adding_itself_to_a_dataset.html
 sidebar: sidebar
-keywords: 
-summary: ''
+keywords: virtual, machine, managing, manage, itself
+summary: "If a virtual machine (VM) belongs to a host that has SnapManager for Hyper-V installed, and you install SnapManager for Hyper-V on that VM to use as a management console, you should not use SnapManager for Hyper-V to manage the host to which the VM belongs."
 ---
 = Virtual machine managing itself
 :icons: font

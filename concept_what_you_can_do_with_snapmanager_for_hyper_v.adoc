@@ -1,8 +1,8 @@
 ---
 permalink: concept_what_you_can_do_with_snapmanager_for_hyper_v.html
 sidebar: sidebar
-keywords: 
-summary: 'SnapManager for Hyper-V enables you to back up and restore multiple virtual machines across multiple hosts. You can create datasets and apply policies to them to automate backup tasks such as scheduling, retention, and replication.'
+keywords: snapmanager, hyper-v, enable, back, up, restore, multiple, virtual, machine, automatic, backup, task, schedule, scheduling, dataset, retention, replication
+summary: "SnapManager for Hyper-V enables you to back up and restore multiple virtual machines across multiple hosts. You can create datasets and apply policies to them to automate backup tasks such as scheduling, retention, and replication."
 ---
 = What you can do with SnapManager for Hyper-V
 :icons: font

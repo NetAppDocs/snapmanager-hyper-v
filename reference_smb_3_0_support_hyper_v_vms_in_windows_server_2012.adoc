@@ -1,8 +1,8 @@
 ---
 permalink: reference_smb_3_0_support_hyper_v_vms_in_windows_server_2012.html
 sidebar: sidebar
-keywords: 
-summary: 'Microsoft enhanced the VSS infrastructure to support application-consistent backups of Hyper-V virtual machines \(VMs\) running on SMB 3.0 shares using the new Remote VSS Hardware Provider running on the SMB target.'
+keywords: microsoft, enhance, vss, infrastructure, support, application-consistent, backup, hyper-v, virtual, machine, vm, smb, target
+summary: "Microsoft enhanced the VSS infrastructure to support application-consistent backups of Hyper-V virtual machines (VMs) running on SMB 3.0 shares using the new Remote VSS Hardware Provider running on the SMB target."
 ---
 = SMB 3.0 support for Hyper-V VMs in Windows Server 2012
 :icons: font

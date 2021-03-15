@@ -1,8 +1,8 @@
 ---
 permalink: reference_msi_custom_property_used_in_silent_installation.html
 sidebar: sidebar
-keywords: 
-summary: ''
+keywords: msi, custom, property, silent, installation
+summary: MSI custom property used in silent installation.
 ---
 = MSI custom property used in silent installation
 :icons: font

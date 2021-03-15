@@ -1,8 +1,8 @@
 ---
 permalink: reference_error_snapdrive_sddiscoveryfilesystemlistinfo_response_is_null.html
 sidebar: sidebar
-keywords: 
-summary: ''
+keywords: snapdrive, sddiscoveryfilesystemlistinfo, response, null, back, up
+summary: "SnapDrive SDDiscoveryFileSystemListInfo response is null while backing up"
 ---
 = SnapDrive SDDiscoveryFileSystemListInfo response is null while backing up
 :icons: font

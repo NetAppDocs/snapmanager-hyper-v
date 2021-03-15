@@ -1,8 +1,8 @@
 ---
 permalink: reference_unexpected_error_querying_for_the_ivsswritercallback_interface_hr_0x80070005.html
 sidebar: sidebar
-keywords: 
-summary: ''
+keywords: unexpect, error, query, ivsswritercallback, interface, hr, 0x80070005, access, denied, deny
+summary: "Unexpected error querying for the IVssWriterCallback interface. hr = 0x80070005, Access is denied."
 ---
 = Unexpected error querying for the IVssWriterCallback interface. hr = 0x80070005, Access is denied.
 :icons: font

@@ -1,8 +1,8 @@
 ---
 permalink: concept_performing_a_cluster_os_rolling_upgrade.html
 sidebar: sidebar
-keywords: 
-summary: 'You can perform a cluster operating system \(OS\) rolling upgrade to upgrade the OS of the cluster nodes without stopping SnapManager for Hyper-V. This feature supports SLA compliance by reducing downtime.'
+keywords: cluster, operating, system, os, rolling, upgrade, snapmanager, perform, reducing, reduce, downtime
+summary: "You can perform a cluster operating system (OS) rolling upgrade to upgrade the OS of the cluster nodes without stopping SnapManager for Hyper-V. This feature supports SLA compliance by reducing downtime."
 ---
 = Performing a cluster operating system rolling upgrade
 :icons: font

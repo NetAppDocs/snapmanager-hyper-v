@@ -1,8 +1,8 @@
 ---
 permalink: reference_space_consumption_when_making_two_snapshot_copies_for_each_backup.html
 sidebar: sidebar
-keywords: 
-summary: ''
+keywords: space, consumption, snapshot, copies, copy, backup
+summary: Space consumption when making two Snapshot copies for each backup.
 ---
 = Space consumption when making two Snapshot copies for each backup
 :icons: font

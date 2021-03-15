@@ -1,8 +1,8 @@
 ---
 permalink: reference_required_hotfix_kb2263829_cannot_be_installed_on_some_platforms.html
 sidebar: sidebar
-keywords: 
-summary: ''
+keywords: require, hotfix, kb2263829, install, platform
+summary: Required hotfix KB2263829 cannot be installed on some platforms.
 ---
 = Required hotfix KB2263829 cannot be installed on some platforms
 :icons: font

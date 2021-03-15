@@ -1,8 +1,8 @@
 ---
 permalink: task_deleting_a_dataset.html
 sidebar: sidebar
-keywords: 
-summary: 'You can delete a dataset as your protection needs change.'
+keywords: delete, dataset, protection, change, deleting
+summary: You can delete a dataset as your protection needs change.
 ---
 = Deleting a dataset
 :icons: font

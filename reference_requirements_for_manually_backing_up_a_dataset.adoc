@@ -1,8 +1,8 @@
 ---
 permalink: reference_requirements_for_manually_backing_up_a_dataset.html
 sidebar: sidebar
-keywords: 
-summary: 'To backup a dataset manually, you must first name and describe the dataset, choose a backup type and options, and set a retention policy.'
+keywords: backup, dataset, manual, first, name, describe, type, option, retention, policy, requirement
+summary: To backup a dataset manually, you must first name and describe the dataset, choose a backup type and options, and set a retention policy.
 ---
 = Requirements for manually backing up a dataset
 :icons: font

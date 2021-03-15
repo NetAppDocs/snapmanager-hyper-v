@@ -1,8 +1,8 @@
 ---
 permalink: reference_failover_clustering_event_id_5121.html
 sidebar: sidebar
-keywords: 
-summary: ''
+keywords: failover, cluster, event, id, 5121
+summary: Failover clustering event ID 5121.
 ---
 = Failover clustering event ID 5121
 :icons: font

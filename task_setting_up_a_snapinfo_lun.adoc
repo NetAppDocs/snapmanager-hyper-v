@@ -1,8 +1,8 @@
 ---
 permalink: task_setting_up_a_snapinfo_lun.html
 sidebar: sidebar
-keywords: 
-summary: 'You must add a SnapInfo LUN in SnapManager for Hyper-V to store the dataset backup metadata. The SnapInfo path must reside on a ONTAP LUN, because SnapManager for Hyper-V makes a backup of the SnapInfo copy after a regular backup occurs.'
+keywords: add, snapinfo, lun, snapmanager, hyper-v, store, dataset, backup, metadata, reside, ontap, setting, up
+summary: "You must add a SnapInfo LUN in SnapManager for Hyper-V to store the dataset backup metadata. The SnapInfo path must reside on a ONTAP LUN, because SnapManager for Hyper-V makes a backup of the SnapInfo copy after a regular backup occurs."
 ---
 = Setting up a SnapInfo LUN
 :icons: font

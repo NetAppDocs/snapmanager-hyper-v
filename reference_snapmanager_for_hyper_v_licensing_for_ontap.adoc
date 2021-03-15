@@ -1,8 +1,8 @@
 ---
 permalink: reference_snapmanager_for_hyper_v_licensing_for_ontap.html
 sidebar: sidebar
-keywords: 
-summary: 'SnapManager for Hyper-V licensing depends on the version of ONTAP that you use.'
+keywords: snapmanager, hyper-v, license, licensing, version, ontap
+summary: "SnapManager for Hyper-V licensing depends on the version of ONTAP that you use."
 ---
 = SnapManager for Hyper-V licensing for ONTAP
 :icons: font

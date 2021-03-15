@@ -1,8 +1,8 @@
 ---
 permalink: task_viewing_a_virtual_machine.html
 sidebar: sidebar
-keywords: 
-summary: 'From the Virtual Machine tab and VHD tab of the Details pane for a virtual machine, you can view information about and monitor the status of that machine.'
+keywords: virtual, machine, tab, vhd, detail, pane, vm, information, monitor, status, view
+summary: From the Virtual Machine tab and VHD tab of the Details pane for a virtual machine, you can view information about and monitor the status of that machine.
 ---
 = Viewing a virtual machine
 :icons: font

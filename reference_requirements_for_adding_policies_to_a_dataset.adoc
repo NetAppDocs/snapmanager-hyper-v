@@ -1,8 +1,8 @@
 ---
 permalink: reference_requirements_for_adding_policies_to_a_dataset.html
 sidebar: sidebar
-keywords: 
-summary: 'You must meet specific requirements when you want to apply policies to datasets for backup or restore functionality. You can add multiple retention, scheduling, and replication policies to the same dataset.'
+keywords: specific, requirement, apply, policies, policy, backup, restore, function, multiple, retention, replication, dataset
+summary: You must meet specific requirements when you want to apply policies to datasets for backup or restore functionality. You can add multiple retention, scheduling, and replication policies to the same dataset.
 ---
 = Requirements for adding policies to a dataset
 :icons: font
@@ -72,7 +72,7 @@ These scripts run on all dataset member hosts unless you indicate a specific ser
 
 Backup scripts run on each node in the dataset. You can set the dataset policy to specify the name of the host on which you want to run the scripts. The policy is processed on each node in the cluster where the VM to be backed up is running.
 
-image::../media/smhv_policywizard_specified_host.gif[]
+image::smhv_policywizard_specified_host.gif[]
 
 You can use the following environment variables in arguments for backup postscripts:
 

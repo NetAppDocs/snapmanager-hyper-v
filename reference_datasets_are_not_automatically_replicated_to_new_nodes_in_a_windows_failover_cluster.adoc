@@ -1,8 +1,8 @@
 ---
 permalink: reference_datasets_are_not_automatically_replicated_to_new_nodes_in_a_windows_failover_cluster.html
 sidebar: sidebar
-keywords: 
-summary: ''
+keywords: dataset, automatic, replicated, node, windows, failover, cluster
+summary: Datasets are not automatically replicated to new nodes in a Windows Failover Cluster.
 ---
 = Datasets are not automatically replicated to new nodes in a Windows Failover Cluster
 :icons: font

@@ -1,8 +1,8 @@
 ---
 permalink: reference_requirements_for_creating_a_dataset.html
 sidebar: sidebar
-keywords: 
-summary: 'You must meet specific requirements when you want to create datasets to protect your data. You must first add the host or host cluster to SnapManager for Hyper-V and then add virtual machines to the host or host cluster.'
+keywords: specific, requirement, create, dataset, protect, data, host, cluster, snapmanager, hyper-v
+summary: You must meet specific requirements when you want to create datasets to protect your data. 
 ---
 = Requirements for creating a dataset
 :icons: font

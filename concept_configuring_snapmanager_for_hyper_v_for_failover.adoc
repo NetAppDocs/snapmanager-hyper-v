@@ -1,8 +1,8 @@
 ---
 permalink: concept_configuring_snapmanager_for_hyper_v_for_failover.html
 sidebar: sidebar
-keywords: 
-summary: 'To fully enable your SnapManager for Hyper-V implementation for disaster recovery, you must ensure that the primary and secondary hosts have the same configuration and know that you can perform disaster recovery using only PowerShell.'
+keywords: enable, snapmanager, hyper-v, implementation, disaster, recovery, primary, secondary, host, powershell, failover, configure, configuring
+summary: "To fully enable your SnapManager for Hyper-V implementation for disaster recovery, you must ensure that the primary and secondary hosts have the same configuration and know that you can perform disaster recovery using only PowerShell."
 ---
 = Configuring SnapManager for Hyper-V for failover
 :icons: font

@@ -1,8 +1,8 @@
 ---
 permalink: concept_configuring_datasets.html
 sidebar: sidebar
-keywords: 
-summary: 'You can create, modify, view, and delete datasets based on your protection needs.'
+keywords: create, modify, view, delete, dataset, protection, configure, configuring
+summary: You can create, modify, view, and delete datasets based on your protection needs.
 ---
 = Configuring datasets
 :icons: font

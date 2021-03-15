@@ -1,8 +1,8 @@
 ---
 permalink: reference_retention_of_snapinfo_snapshot_copies.html
 sidebar: sidebar
-keywords: 
-summary: ''
+keywords: delete, snapinfo, snapshot, copies, copy
+summary: Deleted SnapInfo Snapshot copies.
 ---
 = Deleted SnapInfo Snapshot copies
 :icons: font

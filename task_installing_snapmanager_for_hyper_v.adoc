@@ -1,8 +1,8 @@
 ---
 permalink: task_installing_snapmanager_for_hyper_v.html
 sidebar: sidebar
-keywords: 
-summary: 'You can install SnapManager for Hyper-V so that you are able to back up and restore your data. You should install SnapDrive for Windows before installing SnapManager for Hyper-V.'
+keywords: install, snapmanager, hyper-v, back, up, restore, data, snapdrive, windows
+summary: You can install SnapManager for Hyper-V so that you are able to back up and restore your data. You should install SnapDrive for Windows before installing SnapManager for Hyper-V.
 ---
 = Installing SnapManager for Hyper-V
 :icons: font

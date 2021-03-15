@@ -1,8 +1,8 @@
 ---
 permalink: task_modifying_a_dataset.html
 sidebar: sidebar
-keywords: 
-summary: 'After you have created a dataset, you can modify the dataset description and the resources associated with the dataset.'
+keywords: create, dataset, modify, description, resource, associate
+summary: After you have created a dataset, you can modify the dataset description and the resources associated with the dataset.
 ---
 = Modifying a dataset
 :icons: font

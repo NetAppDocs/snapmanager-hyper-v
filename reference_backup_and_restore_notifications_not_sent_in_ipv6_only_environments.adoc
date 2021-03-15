@@ -1,8 +1,8 @@
 ---
 permalink: reference_backup_and_restore_notifications_not_sent_in_ipv6_only_environments.html
 sidebar: sidebar
-keywords: 
-summary: ''
+keywords: backup, restore, notification, ipv6-only, environment
+summary: Backup and restore notifications not sent in IPv6-only environments.
 ---
 = Backup and restore notifications not sent in IPv6-only environments
 :icons: font

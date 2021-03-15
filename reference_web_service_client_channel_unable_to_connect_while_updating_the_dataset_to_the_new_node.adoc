@@ -1,8 +1,8 @@
 ---
 permalink: reference_web_service_client_channel_unable_to_connect_while_updating_the_dataset_to_the_new_node.html
 sidebar: sidebar
-keywords: 
-summary: ''
+keywords: web, service, client, channel, unable, connect, update, updating, dataset, new, node
+summary: Web Service Client channel unable to connect while updating the dataset to the new node.
 ---
 = Web Service Client channel unable to connect while updating the dataset to the new node
 :icons: font

@@ -1,8 +1,8 @@
 ---
 permalink: concept_how_snapmanager_for_hyper_v_handles_saved_state_backups.html
 sidebar: sidebar
-keywords: 
-summary: 'Although the default behavior of SnapManager for Hyper-V is to cause backups containing virtual machines that are in the saved state to shut down or fail, you can perform a saved-state backup by moving the virtual machines to a dataset that has a policy that allows saved-state backups.'
+keywords: default, behavior, snapmanager, hyper-v, backup, contain, virtual, machine, save, state, shut, down, saved-state
+summary: "Although the default behavior of SnapManager for Hyper-V is to cause backups containing virtual machines that are in the saved state to shut down or fail, you can perform a saved-state backup by moving the virtual machines to a dataset that has a policy that allows saved-state backups."
 ---
 = How SnapManager for Hyper-V handles saved-state backups
 :icons: font

@@ -1,8 +1,8 @@
 ---
 permalink: task_restoring_a_virtual_machine_from_a_backup_copy.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use SnapManager for Hyper-V, which restores a single virtual machine \(VM\) at a time, to recover lost or damaged data from a backup copy.'
+keywords: snapmanager, hyper-v, restore, single, virtual, machine, vm, recover, lost, damage, data, backup, copy, restoring
+summary: "You can use SnapManager for Hyper-V, which restores a single virtual machine (VM) at a time, to recover lost or damaged data from a backup copy."
 ---
 = Restoring a virtual machine from a backup copy
 :icons: font

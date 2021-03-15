@@ -1,8 +1,8 @@
 ---
 permalink: task_updating_the_dataset_and_snapinfo_across_all_nodes.html
 sidebar: sidebar
-keywords: 
-summary: 'After you perform a cluster OS rolling upgrade, you must update the dataset and SnapInfo across all nodes.'
+keywords: perform, cluster, os, rolling, upgrade, dataset, snapinfo, node, updating, update
+summary: After you perform a cluster OS rolling upgrade, you must update the dataset and SnapInfo across all nodes.
 ---
 = Updating the dataset and SnapInfo across all nodes
 :icons: font

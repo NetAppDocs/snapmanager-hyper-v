@@ -1,8 +1,8 @@
 ---
 permalink: task_modifying_policies.html
 sidebar: sidebar
-keywords: 
-summary: 'You can modify the policies that protect your datasets by using the Modify Policy wizard.'
+keywords: modify, policies, policy, protect, dataset, wizard
+summary: You can modify the policies that protect your datasets by using the Modify Policy wizard.
 ---
 = Modifying policies
 :icons: font

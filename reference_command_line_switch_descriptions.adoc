@@ -1,8 +1,8 @@
 ---
 permalink: reference_command_line_switch_descriptions.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use command line switches to perform a silent installation, which enables you to use an installation script to install SnapManager for Hyper-V.'
+keywords: command, line, switch, perform, silent, installation, enable, script, snapmanager, hyper-v
+summary: "You can use command line switches to perform a silent installation, which enables you to use an installation script to install SnapManager for Hyper-V."
 ---
 = List and description of command line switches for silent installation
 :icons: font
@@ -13,6 +13,7 @@ You can use command line switches to perform a silent installation, which enable
 
 The following table provides a list of values and describes each of the available command-line installation switches.
 
+[options="header"]
 |===
 | Switch| Value| Description
 a|
@@ -24,7 +25,7 @@ Enables SnapManager for Hyper-V to properly execute the unattended install featu
 a|
 REINSTALLMODE=
 a|
- 
+
 a|
 Specifies the reinstall mode to be used.
 a|

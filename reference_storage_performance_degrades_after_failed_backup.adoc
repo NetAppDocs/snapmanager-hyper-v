@@ -1,8 +1,8 @@
 ---
 permalink: reference_storage_performance_degrades_after_failed_backup.html
 sidebar: sidebar
-keywords: 
-summary: ''
+keywords: storage, performance, degrade, fail, backup
+summary: Storage performance degrades after failed backup.
 ---
 = Storage performance degrades after failed backup
 :icons: font

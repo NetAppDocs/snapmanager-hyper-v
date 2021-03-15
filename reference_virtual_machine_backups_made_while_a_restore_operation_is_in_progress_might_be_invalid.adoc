@@ -1,8 +1,8 @@
 ---
 permalink: reference_virtual_machine_backups_made_while_a_restore_operation_is_in_progress_might_be_invalid.html
 sidebar: sidebar
-keywords: 
-summary: ''
+keywords: virtual, machine, backup, restore, operation, progress, invalid
+summary: Virtual machine backups made while a restore operation is in progress might be invalid.
 ---
 = Virtual machine backups made while a restore operation is in progress might be invalid
 :icons: font

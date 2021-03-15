@@ -1,8 +1,8 @@
 ---
 permalink: concept_snapmanager_for_hyper_v_troubleshooting.html
 sidebar: sidebar
-keywords: 
-summary: 'If you encounter unexpected behavior during the installation or configuration of SnapManager for Hyper-V, you can follow specific troubleshooting procedures to identify and resolve the cause of such issues.'
+keywords: encounter, unexpected, behavior, installation, configuration, troubleshoot, identify, resolve
+summary: "If you encounter unexpected behavior during the installation or configuration of SnapManager for Hyper-V, you can follow specific troubleshooting procedures to identify and resolve the cause of such issues."
 ---
 = Troubleshooting SnapManager for Hyper-V
 :icons: font

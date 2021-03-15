@@ -1,8 +1,8 @@
 ---
 permalink: reference_web_service_client_channel_was_unable_to_connect_to_the_configurationmanagementservice_instance_on_machine_smhv51_81clus.html
 sidebar: sidebar
-keywords: 
-summary: ''
+keywords: web, service, client, channel, unable, conntect, configurationmanagementservice, instance, machine, smhv51_81clus
+summary: Web Service Client channel was unable to connect to the ConfigurationManagementService instance on machine smhv51_81clus.
 ---
 = Web Service Client channel was unable to connect to the ConfigurationManagementService instance on machine smhv51_81clus
 :icons: font

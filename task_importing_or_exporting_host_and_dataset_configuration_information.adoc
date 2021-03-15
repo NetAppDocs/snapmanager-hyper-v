@@ -1,8 +1,8 @@
 ---
 permalink: task_importing_or_exporting_host_and_dataset_configuration_information.html
 sidebar: sidebar
-keywords: 
-summary: 'Although you should manage a host from only one management console, if you need to do so from multiple consoles, you can import and export host and dataset configuration information from one remote management console to another to ensure data consistency.'
+keywords: manage, host, management, console, multiple, import, export, information, dataset, consistency
+summary: Although you should manage a host from only one management console, if you need to do so from multiple consoles, you can import and export host and dataset configuration information from one remote management console to another to ensure data consistency.
 ---
 = Importing or exporting host and dataset configuration information
 :icons: font

@@ -1,8 +1,8 @@
 ---
 permalink: task_import_the_vm_to_a_data_ontap_host.html
 sidebar: sidebar
-keywords: 
-summary: 'After you have exported a virtual machine \(VM\), you can import it to an ONTAP host.'
+keywords: export, virtual, machine, vm, import, ontap, host
+summary: After you have exported a virtual machine \(VM\), you can import it to an ONTAP host.
 ---
 = Importing a VM to an ONTAP host
 :icons: font
