@@ -1,0 +1,41 @@
+---
+permalink: concept_create_and_manage_backup_jobs_in_snapmanager_for_hyper_v.html
+sidebar: sidebar
+keywords: create, monitor, on-demand, backup, manage, schedule, snapmanager, hyper-v, creating, managing, application, crash
+summary: "You can create and monitor on-demand backups or managed scheduled backups in SnapManager for Hyper-V."
+---
+= Create and manage backup jobs in SnapManager for Hyper-V
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+You can create and monitor on-demand backups or managed scheduled backups in SnapManager for Hyper-V. You can also perform two types of backup jobs with SnapManager for Hyper-V: application consistent and crash consistent.
+
+== About SnapManager for Hyper-V backups
+
+You can create on-demand backup jobs and run them when you want or you can create scheduled backup jobs using policies attached to datasets. An on-demand backup job can include retention and replication policies as well as scripts to run before and after the backup takes place. You can create, modify, view, and delete the policies that make up scheduled backup jobs.
+
+== Types of backup jobs SnapManager for Hyper-V can perform
+
+You can perform two types of backup jobs with SnapManager for Hyper-V: application consistent and crash consistent.
+
+== Application-consistent backup jobs
+
+Application-consistent backup jobs are thorough, reliable, and resource intensive. They are performed in coordination with Microsoft Volume Shadow Copy Service (VSS) to ensure that each application running on the VM is quiesced before creating a Snapshot copy. This backup method guarantees application data consistency. You can use it to restore VMs and the applications running on them. However, application-consistent backup jobs are time consuming and can be complex.
+
+== Crash-consistent backup jobs
+
+Crash-consistent backup jobs are quick Snapshot copies of all the LUNs used by VMs involved in a dataset. The resulting backup copies are similar to the data captures of VMs that crash or are otherwise abruptly powered off. Crash-consistent backup jobs provide a quick way to capture data, but the VMs must be present to be restored from a crash-consistent backup. Crash-consistent backup jobs are not intended to replace application-consistent backup jobs.
+
+== SnapManager for Hyper-V backup requirements and limitations
+
+You should be aware of the requirements and limitations of a SnapManager for Hyper-V backup:
+
+* Backup and restore operations are not supported if you are performing a switchover or switchback operation on a MetroCluster configuration. If a backup and restore operation and a switchover or switchback operation are running simultaneously, the .vhd file format of a VM might change to .avhdx in Windows Server 2012 R2 systems. The VM is not affected by this change.
+* The distributed application-consistent backup option enables multiple VMs running on the partner cluster nodes to be consistent in one single hardware Snapshot copy created from the backup node. This option is supported for all the VMs running on a CSV 2.0 Windows volume across multiple nodes in a Windows Failover Cluster.
+* When operating in 7-Mode, application-consistent backup jobs use the VSS Hardware Provider to make two Snapshot copies. The Snapshot copies are called snapshot_name and snapshot_name_backup. The two Snapshot copies are made to facilitate automatic recovery during the VSS backup.
+* In clustered environments, application-consistent backups require only one Snapshot copy for the automatic recovery process. SIS clones are leveraged to perform automatic recovery, and after automatic recovery is complete, the first Snapshot copy (snapshot_name) is deleted.
+* Each Windows volume in the VM must have at least 300 MB of free disk space. This includes the Windows volumes corresponding to VHDs, iSCSI LUNs, and pass-through disks attached to the VM.
+* A crash-consistent backup job always creates only one Snapshot copy. It does not provide VSS integration.
+* Multiple crash-consistent backup jobs can execute in parallel. A crash-consistent backup job can run in parallel with an application-consistent backup job.
+* AllowSavedStateBackup is not applicable to crash-consistent backup jobs.

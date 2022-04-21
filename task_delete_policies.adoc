@@ -1,0 +1,19 @@
+---
+permalink: task_delete_policies.html
+sidebar: sidebar
+keywords: delete, policy, policies, deleting, dataset
+summary: You can delete a policy from a dataset when it is no longer needed.
+---
+= Delete policies
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+You can delete a policy from a dataset when it is no longer needed.
+
+. From the navigation pane, click *Protection* > *Datasets*.
+. Select the dataset that contains the policy that you want to delete.
+. From the Policies pane, select the specific policy that you want to delete.
+. From the Actions pane, click *Remove* and click *OK* to delete the policy.
++
+Deleting the policy also deletes the scheduled jobs from all hosts that are members of the dataset.

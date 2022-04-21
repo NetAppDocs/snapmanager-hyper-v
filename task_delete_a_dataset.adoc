@@ -1,0 +1,22 @@
+---
+permalink: task_delete_a_dataset.html
+sidebar: sidebar
+keywords: delete, dataset, protection, change, deleting
+summary: You can delete a dataset as your protection needs change.
+---
+= Delete a dataset
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+You can delete a dataset as your protection needs change.
+
+Deleting a dataset does not delete the virtual machines that belong to the dataset. After the dataset is deleted, the virtual machines that belonged to it become unprotected if they do not belong to another dataset.
+
+. From the navigation pane, click *Protection* > *Datasets.*
+. Select the dataset that you want to delete.
+. From the Actions pane, click *Delete* and click *OK* to delete the dataset.
++
+Deleting the dataset also deletes the scheduled jobs from all hosts that are members of the dataset. SnapManager for Hyper-V no longer manages the retention of backups when you delete the dataset, even if it is re-created with the same name.
+
+SnapManager for Hyper-V no longer protects the resources associated with the deleted dataset unless those resources belong to another dataset.

@@ -1,0 +1,20 @@
+---
+permalink: concept_perform_a_cluster_os_rolling_upgrade.html
+sidebar: sidebar
+keywords: cluster, operating, system, os, rolling, upgrade, snapmanager, perform, reducing, reduce, downtime
+summary: "You can perform a cluster operating system (OS) rolling upgrade to upgrade the OS of the cluster nodes without stopping SnapManager for Hyper-V. This feature supports SLA compliance by reducing downtime."
+---
+= Perform a cluster operating system rolling upgrade
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+You can perform a cluster operating system (OS) rolling upgrade to upgrade the OS of the cluster nodes without stopping SnapManager for Hyper-V. This feature supports SLA compliance by reducing downtime.
+
+Failover clusters running SnapManager for Hyper-V can be upgraded from Windows Server 2012 R2 to Windows Server 2016 and Windows Server 2019 with no downtime.
+
+For information on cluster OS rolling upgrade benefits, installation process and limitations refer to the related information.
+
+*Related information*
+
+https://docs.microsoft.com/en-us/windows-server/failover-clustering/cluster-operating-system-rolling-upgrade[Microsoft TechNet: Cluster operating system rolling upgrade]

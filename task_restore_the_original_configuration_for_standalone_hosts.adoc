@@ -1,0 +1,17 @@
+---
+permalink: task_restore_the_original_configuration_for_standalone_hosts.html
+sidebar: sidebar
+keywords: vm, backed, up, primary, storage, system, return, original, configuration, snapmirror, relationship, primary, secondary, restore, restoring
+summary: After the VMs are backed up on the primary storage system, you can return to the original configuration using a SnapMirror relationship that is established from the primary storage system to the secondary storage system.
+---
+= Restore the original configuration for standalone hosts
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+After the VMs are backed up on the primary storage system, you can return to the original configuration using a SnapMirror relationship that is established from the primary storage system to the secondary storage system.
+
+. Shut down the VMs running on the secondary storage system.
+. Delete the VMs running on the secondary storage system.
+. Disconnect the SnapInfo disk and the disks containing VMs using SnapDrive.
+. Resynchronize the SnapMirror relationship from the primary storage system to the secondary storage system.

@@ -45,7 +45,7 @@ For application-consistent backups, dataset backups of clustered virtual machine
 
 == Number of virtual machines
 
-If your Hyper-V host or host cluster has more than 1,000 virtual machines, you must increase the value of the maximumElementsInCacheBeforeScavenging property in the SnapMgrServiceHost.exe.config file for Hyper-V Cache Manager. This value should be greater than or equal to the number of Hyper-V hosts running on a stand-alone host or cluster. The value should be changed on each node of the cluster, and the SnapManager for Hyper-V service must be restarted after changing this value. You must manually edit the SnapMgrServiceHost.exe.config file using a text editor.
+If your Hyper-V host or host cluster has more than 1,000 virtual machines, you must increase the value of the maximum `Elements In Cache Before Scavenging` property in the `SnapMgrServiceHost.exe.config` file for Hyper-V Cache Manager. This value should be greater than or equal to the number of Hyper-V hosts running on a stand-alone host or cluster. The value should be changed on each node of the cluster, and the SnapManager for Hyper-V service must be restarted after changing this value. You must manually edit the `SnapMgrServiceHost.exe.config` file using a text editor.
 
 ----
 <cacheManagers>

@@ -41,7 +41,7 @@ You must provide the SnapDrive for Windows license key.
 
 * *User Name*
 +
-You must provide the host or node administrator-level user name using the format domain\username.
+You must provide the host or node administrator-level user name using the format _domain\username_.
 
 * *Password*
 +

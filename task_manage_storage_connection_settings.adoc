@@ -1,0 +1,22 @@
+---
+permalink: task_manage_storage_connection_settings.html
+sidebar: sidebar
+keywords: host, storage, connection, snapdrive, windows, snapmanager, hyper-v, storage, communication, protection, dataset, management
+summary: After you have added a host, you should enter all of the storage connections \(SnapDrive for Windows and SnapManager for Hyper-V\) for using Manage Storage Connection Settings in Protection \> Dataset Management .
+---
+= Manage storage connection settings
+:experimental:
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+After you have added a host, you should enter all of the storage connections (SnapDrive for Windows and SnapManager for Hyper-V) for using Manage Storage Connection Settings in menu:Protection[Dataset Management].
+
+.What you'll need
+You must have at least one host added to SnapManager for Hyper-V before you can manage your storage connection settings.
+
+.Steps
+. From menu:Protection[Dataset Management], select the *Manage Storage Connection* Settings.
+. Add the storage connections.
++
+All storage connections can be viewed in SnapDrive for Windows TPS.
