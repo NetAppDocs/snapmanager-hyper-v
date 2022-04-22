@@ -5,13 +5,15 @@ keywords: view, vss, provider, install, host
 summary: You can view the VSS providers installed on your host.
 ---
 = View installed VSS providers
+:experimental:
 :icons: font
 :imagesdir: ./media/
 
 [.lead]
 You can view the VSS providers installed on your host.
 
-. Select *Start* > *Run* and enter the following command to open a Windows command prompt:
+.Steps
+. Select menu:Start[Run] and enter the following command to open a Windows command prompt:
 +
 `cmd`
 

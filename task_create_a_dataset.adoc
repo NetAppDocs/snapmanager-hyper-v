@@ -5,23 +5,28 @@ keywords: create, creating, dataset, virtual, machine, resource, protection, req
 summary: You can create datasets for virtual machine resources that share the same protection requirements. You can add virtual machines to multiple datasets, as necessary.
 ---
 = Create a dataset
+:experimental:
 :icons: font
 :imagesdir: ./media/
 
 [.lead]
 You can create datasets for virtual machine resources that share the same protection requirements. You can add virtual machines to multiple datasets, as necessary.
 
+.What you'll need
 You must have the following information available:
 
 * Dataset name and description
 * Virtual machine resources you plan to add to the dataset
 
+.About this task
 Dedicated and shared disks that belong to the same host cluster should not be placed in the same dataset. Adding these types of resources to a single dataset can cause the dataset backup to fail. You can have only one type of VM per dataset: NAS or SAN. You cannot have mixed-mode datasets.
 
 The Validate Dataset check box is selected by default. SnapManager for Hyper-V checks for any configuration errors in all VMs during the creation or modification of a dataset. You must ensure that the check box is not selected if you do not want to enable validation of the dataset.
 
-. From the navigation pane, click *Protection* > *Datasets*.
+.Steps
+. From the navigation pane, click menu:Protection[Datasets].
 . From the Actions pane, click *Create dataset*.
 . Complete the pages of the wizard.
 
+.After you finish
 You should next add protection policies to the dataset that you created.

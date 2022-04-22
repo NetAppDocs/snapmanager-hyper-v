@@ -11,6 +11,7 @@ summary: After the VMs are backed up on the primary storage system, you can retu
 [.lead]
 After the VMs are backed up on the primary storage system, you can return to the original configuration using a SnapMirror relationship which is established from the primary storage system to the secondary storage system.
 
+.Steps
 . Offline the virtual machine resource and virtual machine configuration resource for all the VMs.
 . Delete these resources from the cluster.
 . Delete all the VMs from Hyper-V Manager.

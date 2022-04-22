@@ -5,13 +5,15 @@ keywords: modify, policies, policy, protect, dataset, wizard
 summary: You can modify the policies that protect your datasets by using the Modify Policy wizard.
 ---
 = Modify policies
+:experimental:
 :icons: font
 :imagesdir: ./media/
 
 [.lead]
 You can modify the policies that protect your datasets by using the Modify Policy wizard.
 
-. From the navigation pane, click *Protection* > *Datasets*.
+.Steps
+. From the navigation pane, click menu:Protection[Datasets].
 . Select the dataset that contains the policies that you want to modify.
 . Select the policy that you want to modify.
 . From the Actions pane, click *Modify policy*.

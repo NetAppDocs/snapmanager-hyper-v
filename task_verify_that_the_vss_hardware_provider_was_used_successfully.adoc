@@ -5,13 +5,15 @@ keywords: verify, data, ontap, vss, hardware, provider, successful, snapshot, co
 summary: "You can verify that the Data ONTAP VSS Hardware Provider was used successfully after a Snapshot copy was made."
 ---
 = Verify that the VSS Hardware Provider was used successfully
+:experimental:
 :icons: font
 :imagesdir: ./media/
 
 [.lead]
 You can verify that the Data ONTAP VSS Hardware Provider was used successfully after a Snapshot copy was made.
 
-. Navigate to *System Tools* > *Event Viewer* > *Application* in MMC and look for an event with the following values:
+.Steps
+. Navigate to menu:System Tools[Event viewer > Application] in MMC and look for an event with the following values:
 +
 [options="header"]
 |===
@@ -23,4 +25,5 @@ a|
 a|
 The VSS provider has successfully completed CommitSnapshots for SnapshotSetId id in n milliseconds.
 |===
-*Note:* VSS requires that the provider commit a Snapshot copy within 10 seconds. If this time limit is exceeded, the Data ONTAP VSS Hardware Provider logs Event ID 4364. This limit could be exceeded due to a transient problem. If this event is logged for a failed backup, retry the backup.
+
+NOTE: VSS requires that the provider commit a Snapshot copy within 10 seconds. If this time limit is exceeded, the Data ONTAP VSS Hardware Provider logs Event ID 4364. This limit could be exceeded due to a transient problem. If this event is logged for a failed backup, retry the backup.

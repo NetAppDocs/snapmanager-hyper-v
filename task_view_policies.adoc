@@ -5,13 +5,15 @@ keywords: view, policy, detail, associate, specific, dataset, policies
 summary: You can view policy details associated with a specific dataset.
 ---
 = View policies
+:experimental:
 :icons: font
 :imagesdir: ./media/
 
 [.lead]
 You can view policy details associated with a specific dataset.
 
-. From the navigation pane, click *Protection* > *Datasets*.
+.Steps
+. From the navigation pane, click menu:Protection[Datasets].
 . Select the dataset that contains the policies that you want to view.
 . From the Policies pane, select the specific policy for which you want to view details.
 +

@@ -11,8 +11,9 @@ summary: You can view the scheduled backup jobs for a particular dataset by usin
 [.lead]
 You can view the scheduled backup jobs for a particular dataset by using the Jobs Management windowScheduled tab. You can also view the backup and restore jobs that are currently running by using the Jobs Management windowRunning tab.
 
+.Steps
 . From the navigation pane, click *Jobs*.
-. Click either the Scheduled tab or the Running tab.
+. Click either the *Scheduled* tab or the *Running* tab.
 . Select the scheduled or running backup job, or the restore job, that you want to monitor.
 +
 Information about the job appears in the Details pane.

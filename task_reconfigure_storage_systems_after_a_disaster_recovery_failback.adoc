@@ -11,6 +11,7 @@ summary: "After failing over to a secondary storage system, SnapManager for Hype
 [.lead]
 After failing over to a secondary storage system, SnapManager for Hyper-V completes disaster recovery by failing back to the original primary storage system. Failing back restores primary storage function to the original primary storage site after its storage systems are reenabled or replaced.
 
+.Steps
 . Depending on the condition of the primary storage system, take one of the following actions:
 +
 [options="header"]
@@ -73,7 +74,7 @@ For NAS, if an access is denied error occurs, or if you cannot browse to the exp
 . Enter the following cmdlets:
  .. Retrieve the list of VMs present in the backup metadata by using the Get-VMsFromBackup cmdlet.
  .. Get the backup copies for each VM by using the Get-Backup cmdlet to get the backup copies for each VM.
-. To restore, use Restore-Backup with the VM GUID and the backup copy with the following parameters:
+. To restore, use `Restore-Backup` with the VM GUID and the backup copy with the following parameters:
 +
 [options="header"]
 |===
@@ -81,13 +82,13 @@ For NAS, if an access is denied error occurs, or if you cannot browse to the exp
 a|
 An alternate host
 a|
-Restore-Backup -Server Secondary_host_system_or_cluster_name -DisableVerifySnapshot -RestoreToAlternateHost
+`Restore-Backup -Server` `Secondary_host_system_or_cluster_name -DisableVerifySnapshot -RestoreToAlternateHost`
 a|
 A listed backup copy
 a|
-Restore-Backup -Server -VirtualMachinePath -SnapShotFilePath @VHD
+`Restore-Backup -Server -VirtualMachinePath -SnapShotFilePath @VHD`
 |===
-For @VHD, a VM might have multiple VHDs; you must enter both a source and a destination path pair specified for each VHD.
+For `@VHD`, a VM might have multiple VHDs; you must enter both a source and a destination path pair specified for each VHD.
 
 . If the secondary host system is a cluster, complete the following steps:
  .. Ensure that the LUNs on which the VMs reside are online on the cluster node that owns the cluster group.

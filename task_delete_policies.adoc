@@ -5,13 +5,15 @@ keywords: delete, policy, policies, deleting, dataset
 summary: You can delete a policy from a dataset when it is no longer needed.
 ---
 = Delete policies
+:experimental:
 :icons: font
 :imagesdir: ./media/
 
 [.lead]
 You can delete a policy from a dataset when it is no longer needed.
 
-. From the navigation pane, click *Protection* > *Datasets*.
+.Steps
+. From the navigation pane, click menu:Protection[Datasets].
 . Select the dataset that contains the policy that you want to delete.
 . From the Policies pane, select the specific policy that you want to delete.
 . From the Actions pane, click *Remove* and click *OK* to delete the policy.

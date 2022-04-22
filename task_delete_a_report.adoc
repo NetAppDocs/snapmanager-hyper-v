@@ -5,13 +5,15 @@ keywords: delete, report, deleting
 summary: You can delete one or more reports when they are no longer necessary.
 ---
 = Delete a report
+:experimental:
 :icons: font
 :imagesdir: ./media/
 
 [.lead]
 You can delete one or more reports when they are no longer necessary.
 
-. From the navigation pane, click *Reports* > *Datasets* or *Reports* > *Hosts*.
+.Steps
+. From the navigation pane, click menu:Reports[Datasets] or menu:Reports[Hosts].
 . Select the dataset, virtual machine, or host that contains the report or reports you want to delete.
 . From the Reports pane, select the report or reports you want to delete.
 . From the Actions pane, click *Delete report* and click *OK* to delete.

@@ -11,8 +11,10 @@ summary: "To recover from a disaster, SnapManager for Hyper-V must first fail ov
 [.lead]
 To recover from a disaster, SnapManager for Hyper-V must first fail over to a secondary storage system. Failing over involves a series of manual steps in PowerShell.
 
+.About this task
 Most backups can be restored to an alternate host for both NAS and SAN; however, Windows Server 2008 R2 crash-consistent backups cannot be restored to an alternate host.
 
+.Steps
 . If you are running Data ONTAP 8.1.x, on the secondary site, enter the storage virtual machine (SVM) information to the Transport Protocol Setting (TPS) in the SnapDrive for Windows MMC.
 . From the secondary storage system, connect to all of the LUNs.
 +
@@ -61,9 +63,9 @@ NOTE: This is typical when using the System Center Virtual Machine Manager (SCVM
 
 . Add the secondary storage system or cluster in the SnapManager for Hyper-V MMC, and then configure it with the SnapInfo path.
 . Enter the following cmdlets:
- .. Enter Get-VMsFromBackup to retrieve the list of VMs present in the backup metadata.
- .. Enter Get-Backup to get the backup copies for each VM.
-. To restore, use Restore-Backup with the VM GUID and the backup copy with the following parameters:
+ .. Enter `Get-VMsFromBackup` to retrieve the list of VMs present in the backup metadata.
+ .. Enter `Get-Backup` to get the backup copies for each VM.
+. To restore, use `Restore-Backup` with the VM GUID and the backup copy with the following parameters:
 +
 [options="header"]
 |===
@@ -71,13 +73,13 @@ NOTE: This is typical when using the System Center Virtual Machine Manager (SCVM
 a|
 An alternate host
 a|
-Restore-Backup -Server Secondary_host_system_or_cluster_name -DisableVerifySnapshot -RestoreToAlternateHost
+`Restore-Backup -Server` `Secondary_host_system_or_cluster_name -DisableVerifySnapshot -RestoreToAlternateHost`
 a|
 A listed backup
 a|
-Restore-Backup -Server -VirtualMachinePath -SnapShotFilePath @VHD
+`Restore-Backup -Server -VirtualMachinePath -SnapShotFilePath @VHD`
 |===
-For @VHD, a VM might have multiple VHDs; make sure that you enter both a source and a destination path pair specified for each VHD.
+For `@VHD`, a VM might have multiple VHDs; make sure that you enter both a source and a destination path pair specified for each VHD.
 
 . If the secondary host system is a cluster, complete the following steps:
  .. Ensure that the LUNs on which the VMs reside are online on the cluster node that owns the cluster group.

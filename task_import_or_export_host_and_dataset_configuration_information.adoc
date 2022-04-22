@@ -11,12 +11,14 @@ summary: Although you should manage a host from only one management console, if 
 [.lead]
 Although you should manage a host from only one management console, if you need to do so from multiple consoles, you can import and export host and dataset configuration information from one remote management console to another to ensure data consistency.
 
+.About this task
 You should not import or export configuration information to the directory on which SnapManager for Hyper-V is installed. If you uninstall SnapManager for Hyper-V, this file is lost.
 
 NOTE: You can use the Import and Export wizard to change host and dataset configuration settings to a previously exported setting. If you perform this operation in a clustered environment, you must import the settings on all nodes in the cluster so that all host and dataset configurations are the same.
 
+.Steps
 . From the navigation pane, click *Protection*.
-. From the Actions pane, click *Import and export*.
+. From the *Actions* pane, click *Import and export*.
 +
 The Import and Export wizard appears.
 

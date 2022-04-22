@@ -5,15 +5,17 @@ keywords: remove, hyper-v, parent, host, cluster, snapmanager, removing
 summary: "You can remove a Hyper-V parent host or parent host cluster when you no longer want to manage it using SnapManager for Hyper-V."
 ---
 = Remove a Hyper-V parent host or parent host cluster
+:experimental:
 :icons: font
 :imagesdir: ./media/
 
 [.lead]
 You can remove a Hyper-V parent host or parent host cluster when you no longer want to manage it using SnapManager for Hyper-V.
 
-. From the navigation pane, click *Protection* > *Hosts*.
+.Steps
+. From the navigation pane, click menu:Protection[Hosts].
 . Select the host or host cluster you want to remove.
-. In the Actions pane, click *Remove*.
+. In the *Actions* pane, click *Remove*.
 +
 You can select *Delete all VM backups* to delete any virtual machine backups associated with the host.
 +

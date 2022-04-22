@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: deleting, delete, backup, failover
 summary: Deleting backups after failover.
 ---
-= Deleting backups after failover
+= Delete backups after failover
 :icons: font
 :imagesdir: ./media/
 

@@ -11,13 +11,15 @@ summary: When you perform a cluster OS rolling upgrade, you can use the followin
 [.lead]
 When you perform a cluster OS rolling upgrade, you can use the following procedure to unmap the LUNs from the Windows 2012 R2 node and remap them to the Windows Server 2016 node after it is added to the cluster.
 
+.What you'll need
 The Windows Server 2016 node must be added to the cluster.
 
 NOTE: Cluster Rolling upgrade is supported from Windows Server 2016 to Windows Server 2019
 
+.Steps
 . Log in to the ONTAP System Manager.
 . Select the LUN that was mapped to Windows 2012 R2.
-. Click *Edit* and select Initiator Groups.
+. Click *Edit* and select *Initiator* Groups.
 +
 image::mixed_os_mode_3.gif[]
 

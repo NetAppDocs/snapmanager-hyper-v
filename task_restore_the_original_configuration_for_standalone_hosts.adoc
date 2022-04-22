@@ -11,6 +11,7 @@ summary: After the VMs are backed up on the primary storage system, you can retu
 [.lead]
 After the VMs are backed up on the primary storage system, you can return to the original configuration using a SnapMirror relationship that is established from the primary storage system to the secondary storage system.
 
+.Steps
 . Shut down the VMs running on the secondary storage system.
 . Delete the VMs running on the secondary storage system.
 . Disconnect the SnapInfo disk and the disks containing VMs using SnapDrive.

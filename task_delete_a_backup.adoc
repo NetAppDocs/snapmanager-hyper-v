@@ -11,6 +11,7 @@ summary: You can delete one or more backups associated with either a dataset or 
 [.lead]
 You can delete one or more backups associated with either a dataset or a virtual machine.
 
+.Steps
 . From the navigation pane, click *Recovery*.
 . Select the virtual machine within the dataset that contains the backup you want to delete.
 +
