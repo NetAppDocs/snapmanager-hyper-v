@@ -14,7 +14,7 @@ Systems running Windows Server 2008 or Vista with Windows Installer version 4.5 
 
 * *Corrective action*
 +
-Use the MSIRESTARTMANAGERCONTROL=Disable command switch parameter with installation.
+Use the `MSIRESTARTMANAGERCONTROL=Disable` command switch parameter with installation.
 
 *Related information*
 

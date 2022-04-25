@@ -10,7 +10,7 @@ summary: "Either the specified VM(s) are not present or they cannot be backed up
 
 * *Message*
 +
-Either the specified VM(s) are not present or they cannot be backed up online
+`Either the specified VM(s) are not present or they cannot be backed up online`
 
 * *Description*
 +
@@ -43,7 +43,7 @@ NOTE: This corrective action is applicable in both SAN and NAS environments.
 
 * *Message*
 +
-Either the specified VM(s) are not present or they cannot be backed up online
+`Either the specified VM(s) are not present or they cannot be backed up online`
 
 * *Description*
 +
@@ -51,8 +51,8 @@ A second reason this message occurs is because Windows cannot perform an online 
 
 * *Corrective action*
 +
-You must disable the scoped snapshots option by creating a DWORD ScopeSnapshots parameter with value 0 in:
+You must disable the `scoped snapshots` option by creating a DWORD ScopeSnapshots parameter with value 0 in:
 +
-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsNT\CurrentVersion\SystemRestore\
+`HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsNT\CurrentVersion\SystemRestore\`
 +
 NOTE: This corrective action is applicable in both SAN and NAS environments.

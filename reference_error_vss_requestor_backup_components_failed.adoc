@@ -10,7 +10,7 @@ summary: "Error: Vss Requestor - Backup components failed."
 
 * *Message*
 +
-The following error message is displayed in the SnapManager for Hyper-V report and the Windows Event log: Error: Vss Requestor - Backup Components failed. Writer Microsoft Hyper-V VSS Writer involved in backup or restore encountered a retryable error. Writer returned failure code 0x800423f3. Writer state is XXX. For more information, see the Hyper-V-VMMS event log in the Windows Event Viewer.
+The following error message is displayed in the SnapManager for Hyper-V report and the Windows Event log: `Error: Vss Requestor - Backup Components failed. Writer Microsoft Hyper-V VSS Writer involved in backup or restore encountered a retryable error. Writer returned failure code 0x800423f3. Writer state is XXX. For more information, see the Hyper-V-VMMS event log in the Windows Event Viewer.`
 
 * *Description*
 +

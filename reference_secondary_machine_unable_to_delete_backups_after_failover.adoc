@@ -10,7 +10,7 @@ summary: Deleting backups after failover.
 
 * *Message*
 +
-The specified backup does not exist for some of the objects in the dataset.
+`The specified backup does not exist for some of the objects in the dataset.`
 
 * *Description*
 +

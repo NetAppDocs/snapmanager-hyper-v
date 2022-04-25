@@ -10,7 +10,7 @@ summary: "Volume Shadow Copy Service error: An internal inconsistency was detect
 
 * *Message*
 +
-Volume Shadow Copy Service error: An internal inconsistency was detected in trying to contact shadow copy service writers. Please check to see that the Event Service and Volume Shadow Copy Service are operating properly.
+`Volume Shadow Copy Service error: An internal inconsistency was detected in trying to contact shadow copy service writers. Please check to see that the Event Service and Volume Shadow Copy Service are operating properly.`
 
 * *Description*
 +

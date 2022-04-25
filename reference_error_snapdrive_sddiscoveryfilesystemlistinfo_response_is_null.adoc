@@ -10,7 +10,7 @@ summary: "SnapDrive SDDiscoveryFileSystemListInfo response is null while backing
 
 * *Issue*
 +
-You receive the error SnapDrive SDDiscoveryFileSystemListInfo response is null while backing up.
+You receive the error `SnapDrive SDDiscoveryFileSystemListInfo response is null while backing up`.
 
 * *Cause*
 +
