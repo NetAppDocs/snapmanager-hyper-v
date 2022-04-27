@@ -22,4 +22,4 @@ Verify that the SnapInfo location exists and is available. If it has changed, re
 
 *Related information*
 
-xref:task_setting_up_a_snapinfo_lun.adoc[Setting up a SnapInfo LUN]
+xref:task_set_up_a_snapinfo_lun.adoc[Set up a SnapInfo LUN]
