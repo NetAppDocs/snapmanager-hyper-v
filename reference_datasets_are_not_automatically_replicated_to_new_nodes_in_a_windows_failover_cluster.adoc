@@ -24,4 +24,4 @@ This wizard must be run for each dataset that has virtual machines.
 
 *Related information*
 
-xref:task_modifying_a_dataset.adoc[Modifying a dataset]
+xref:task_modify_a_dataset.adoc[Modify a dataset]

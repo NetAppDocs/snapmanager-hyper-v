@@ -26,4 +26,4 @@ You can disable the Verify Snapshots option through the PowerShell or the Restor
 
 *Related information*
 
-xref:task_restoring_a_virtual_machine_from_a_backup_copy.adoc[Restoring a virtual machine from a backup copy]
+xref:task_restore_a_virtual_machine_from_a_backup_copy.adoc[Restore a virtual machine from a backup copy]
