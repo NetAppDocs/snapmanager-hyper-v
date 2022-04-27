@@ -22,6 +22,6 @@ Remove the VM from the dataset list of VMs, and add any re-created VMs to the da
 
 *Related information*
 
-xref:concept_configuring_datasets.adoc[Configuring datasets]
+xref:concept_configure_datasets.adoc[Configure datasets]
 
-xref:task_modifying_a_dataset.adoc[Modifying a dataset]
+xref:task_modify_a_dataset.adoc[Modify a dataset]
