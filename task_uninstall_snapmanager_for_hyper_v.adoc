@@ -23,4 +23,4 @@ Uninstalling SnapManager for Hyper-V deletes all datasets and policies. You cann
 
 *Related information*
 
-xref:task_importing_or_exporting_host_and_dataset_configuration_information.adoc[Importing or exporting host and dataset configuration information]
+xref:task_import_or_export_host_and_dataset_configuration_information.adoc[Importing or exporting host and dataset configuration information]

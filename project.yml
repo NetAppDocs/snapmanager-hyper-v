@@ -63,8 +63,8 @@ sidebar:
         url: "/reference_requirements_for_adding_a_hyper_v_parent_host_or_host_cluster.html"
       - title: Add a Hyper-V parent host or host cluster
         url: "/task_add_a_hyper_v_parent_host_or_host_cluster.html"
-      - title: Manag storage connection settings
-        url: "/task_manag_storage_connection_settings.html"
+      - title: Manage storage connection settings
+        url: "/task_manage_storage_connection_settings.html"
       - title: View a Hyper-V parent host or host cluster
         url: "/task_view_a_hyper_v_parent_host_or_host_cluster.html"
       - title: View a virtual machine
