@@ -8,7 +8,7 @@ settings:
 sidebar:
 
   entries:
-  - title: Home
+  - title: SnapManager for Hyper-V docs
     url: "/index.html"
   - title: What SnapManager for Hyper-V is
     url: "/concept_what_snapmanager_for_hyper_v_is.html"
