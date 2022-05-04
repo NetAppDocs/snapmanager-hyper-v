@@ -6,9 +6,9 @@ settings:
   prod:
     pdf_enabled: true
 sidebar:
-  
+
   entries:
-  - title: Home
+  - title: SnapManager for Hyper-V docs
     url: "/index.html"
   - title: What SnapManager for Hyper-V is
     url: "/concept_what_snapmanager_for_hyper_v_is.html"
@@ -32,100 +32,100 @@ sidebar:
       url: "/reference_license_requirements.html"
     - title: Requirements for using the Remote Host Install wizard
       url: "/reference_requirements_for_remote_host_install.html"
-  - title: Installing SnapManager for Hyper-V
-    url: "/concept_installing_snapmanager_for_hyper_v.html"
+  - title: Install SnapManager for Hyper-V
+    url: "/concept_install_snapmanager_for_hyper_v.html"
     entries:
-    - title: Downloading SnapManager for Hyper-V
-      url: "/task_downloading_snapmanager_for_hyper_v.html"
+    - title: Download SnapManager for Hyper-V
+      url: "/task_download_snapmanager_for_hyper_v.html"
     - title: Installation order for SnapDrive for Windows and SnapManager for Hyper-V
       url: "/concept_installation_order_for_snapdrive_for_windows_and_snapmanager_for_hyper_v.html"
-    - title: Installing SnapManager for Hyper-V
-      url: "/task_installing_snapmanager_for_hyper_v.html"
-    - title: Remotely installing or uninstalling SnapManager for Hyper-V on nodes or
+    - title: Install SnapManager for Hyper-V
+      url: "/task_install_snapmanager_for_hyper_v.html"
+    - title: Remotely install or uninstall SnapManager for Hyper-V on nodes or
         hosts
-      url: "/task_remotely_installing_or_uninstalling_snapmanager_for_hyper_v_on_nodes.html"
+      url: "/task_remotely_install_or_uninstall_snapmanager_for_hyper_v_on_nodes.html"
     - title: List and description of command line switches for silent installation
       url: "/reference_command_line_switch_descriptions.html"
-  - title: Uninstalling SnapManager for Hyper-V on Windows
-    url: "/concept_uninstalling_snapmanager_for_hyper_v_on_windows.html"
+  - title: Uninstall SnapManager for Hyper-V on Windows
+    url: "/concept_uninstall_snapmanager_for_hyper_v_on_windows.html"
     entries:
-    - title: Uninstalling SnapManager for Hyper-V
-      url: "/task_uninstalling_snapmanager_for_hyper_v.html"
-  - title: Configuring SnapManager for Hyper-V
-    url: "/concept_configuring_snapmanager_for_hyper_v.html"
+    - title: Uninstall SnapManager for Hyper-V
+      url: "/task_uninstall_snapmanager_for_hyper_v.html"
+  - title: Configure SnapManager for Hyper-V
+    url: "/concept_configure_snapmanager_for_hyper_v.html"
     entries:
     - title: Dashboard settings
       url: "/concept_dashboard_settings.html"
-    - title: Configuring hosts
-      url: "/concept_configuring_hosts.html"
+    - title: Configure hosts
+      url: "/concept_configure_hosts.html"
       entries:
       - title: Requirements for adding a Hyper-V parent host or host cluster
         url: "/reference_requirements_for_adding_a_hyper_v_parent_host_or_host_cluster.html"
-      - title: Adding a Hyper-V parent host or host cluster
-        url: "/task_adding_a_hyper_v_parent_host_or_host_cluster.html"
-      - title: Managing storage connection settings
-        url: "/task_managing_storage_connection_settings.html"
-      - title: Viewing a Hyper-V parent host or host cluster
-        url: "/task_viewing_a_hyper_v_parent_host_or_host_cluster.html"
-      - title: Viewing a virtual machine
-        url: "/task_viewing_a_virtual_machine.html"
-      - title: Migrating a Hyper-V virtual machine for SnapManager for Hyper-V operations
-        url: "/task_migrating_a_hyper_v_virtual_machine_to_support_snapmanager_for_hyper_v_operations.html"
-      - title: Importing or exporting host and dataset configuration information
-        url: "/task_importing_or_exporting_host_and_dataset_configuration_information.html"
-      - title: Removing a Hyper-V parent host or parent host cluster
-        url: "/task_removing_a_hyper_v_parent_host.html"
+      - title: Add a Hyper-V parent host or host cluster
+        url: "/task_add_a_hyper_v_parent_host_or_host_cluster.html"
+      - title: Manage storage connection settings
+        url: "/task_manage_storage_connection_settings.html"
+      - title: View a Hyper-V parent host or host cluster
+        url: "/task_view_a_hyper_v_parent_host_or_host_cluster.html"
+      - title: View a virtual machine
+        url: "/task_view_a_virtual_machine.html"
+      - title: Migrat a Hyper-V virtual machine for SnapManager for Hyper-V operations
+        url: "/task_migrate_a_hyper_v_virtual_machine_to_support_snapmanager_for_hyper_v_operations.html"
+      - title: Import or export host and dataset configuration information
+        url: "/task_import_or_export_host_and_dataset_configuration_information.html"
+      - title: Remove a Hyper-V parent host or parent host cluster
+        url: "/task_remove_a_hyper_v_parent_host.html"
       - title: Event notification settings
         url: "/concept_event_notification_settings.html"
         entries:
-        - title: Configuring email notifications
-          url: "/concept_configuring_multiple_recipients_for_email_notifications_in_smhv.html"
+        - title: Configure email notifications
+          url: "/concept_configure_multiple_recipients_for_email_notifications_in_smhv.html"
       - title: Report path settings
         url: "/concept_report_path_settings.html"
-    - title: Configuring SnapInfo directory settings
-      url: "/concept_configuring_snapinfo_directory_settings.html"
+    - title: Configure SnapInfo directory settings
+      url: "/concept_configure_snapinfo_directory_settings.html"
       entries:
-      - title: Setting up a SnapInfo LUN
-        url: "/task_setting_up_a_snapinfo_lun.html"
-      - title: Changing the SnapInfo directory path
-        url: "/task_changing_the_snapinfo_directory_path.html"
-    - title: Configuring datasets
-      url: "/concept_configuring_datasets.html"
+      - title: Set up a SnapInfo LUN
+        url: "/task_set_up_a_snapinfo_lun.html"
+      - title: Change the SnapInfo directory path
+        url: "/task_change_the_snapinfo_directory_path.html"
+    - title: Configure datasets
+      url: "/concept_configure_datasets.html"
       entries:
       - title: Requirements for creating a dataset
         url: "/reference_requirements_for_creating_a_dataset.html"
-      - title: Creating a dataset
-        url: "/task_creating_a_dataset.html"
-      - title: Modifying a dataset
-        url: "/task_modifying_a_dataset.html"
-      - title: Viewing a dataset
-        url: "/task_viewing_a_dataset.html"
-      - title: Deleting a dataset
-        url: "/task_deleting_a_dataset.html"
-    - title: Configuring policies
-      url: "/concept_configuring_policies.html"
+      - title: Create a dataset
+        url: "/task_create_a_dataset.html"
+      - title: Modify a dataset
+        url: "/task_modify_a_dataset.html"
+      - title: View a dataset
+        url: "/task_view_a_dataset.html"
+      - title: Delete a dataset
+        url: "/task_delete_a_dataset.html"
+    - title: Configure policies
+      url: "/concept_configure_policies.html"
       entries:
       - title: Requirements for adding policies to a dataset
         url: "/reference_requirements_for_adding_policies_to_a_dataset.html"
-      - title: Adding policies
-        url: "/task_adding_policies.html"
-      - title: Modifying policies
-        url: "/task_modifying_policies.html"
-      - title: Viewing policies
-        url: "/task_viewing_policies.html"
-      - title: Deleting policies
-        url: "/task_deleting_policies.html"
-    - title: Configuring SVMs or CIFS servers for Hyper-V over SMB
-      url: "/concept_configuring_svms_or_cifs_servers_for_hyper_v_over_smb.html"
-  - title: Managing reports
+      - title: Add policies
+        url: "/task_add_policies.html"
+      - title: Modify policies
+        url: "/task_modify_policies.html"
+      - title: View policies
+        url: "/task_view_policies.html"
+      - title: Delete policies
+        url: "/task_delete_policies.html"
+    - title: Configure SVMs or CIFS servers for Hyper-V over SMB
+      url: "/concept_configure_svms_or_cifs_servers_for_hyper_v_over_smb.html"
+  - title: Manage reports
     url: "/concept_report_management.html"
     entries:
-    - title: Viewing a dataset report
-      url: "/task_viewing_a_report.html"
-    - title: Viewing a host report
-      url: "/task_viewing_a_host_report.html"
-    - title: Deleting a report
-      url: "/task_deleting_a_report.html"
+    - title: View a dataset report
+      url: "/task_view_a_report.html"
+    - title: View a host report
+      url: "/task_view_a_host_report.html"
+    - title: Delete a report
+      url: "/task_delete_a_report.html"
   - title: VSS components
     url: "/concept_overview_of_vss_components.html"
     entries:
@@ -137,12 +137,12 @@ sidebar:
       url: "/concept_how_snapmanager_for_hyper_v_uses_vss.html"
     - title: ONTAP VSS Hardware Provider requirement
       url: "/concept_ontap_vss_hardware_provider_requirement.html"
-    - title: Viewing installed VSS providers
-      url: "/task_viewing_installed_vss_providers.html"
-    - title: Verifying that the VSS Hardware Provider was used successfully
-      url: "/task_verifying_that_the_vss_hardware_provider_was_used_successfully.html"
-  - title: Creating and managing backup jobs in SnapManager for Hyper-V
-    url: "/concept_creating_and_managing_backup_jobs_in_snapmanager_for_hyper_v.html"
+    - title: View installed VSS providers
+      url: "/task_view_installed_vss_providers.html"
+    - title: Verify that the VSS Hardware Provider was used successfully
+      url: "/task_verify_that_the_vss_hardware_provider_was_used_successfully.html"
+  - title: Create and manage backup jobs in SnapManager for Hyper-V
+    url: "/concept_create_and_manage_backup_jobs_in_snapmanager_for_hyper_v.html"
     entries:
     - title: Requirements for manually backing up a dataset
       url: "/reference_requirements_for_manually_backing_up_a_dataset.html"
@@ -150,39 +150,39 @@ sidebar:
       url: "/concept_how_snapmanager_for_hyper_v_handles_saved_state_backups.html"
     - title: Manually backing up a dataset
       url: "/task_manually_backing_up_a_dataset.html"
-    - title: Monitoring backup jobs
-      url: "/task_monitoring_backup_jobs.html"
-    - title: Deleting a backup
-      url: "/task_deleting_a_backup.html"
-  - title: Restoring a virtual machine from a backup copy
-    url: "/concept_restoring_a_virtual_machine.html"
+    - title: Monitor backup jobs
+      url: "/task_monitor_backup_jobs.html"
+    - title: Delete a backup
+      url: "/task_delete_a_backup.html"
+  - title: Restore a virtual machine from a backup copy
+    url: "/concept_restore_a_virtual_machine.html"
     entries:
     - title: Requirements for restoring a virtual machine
       url: "/reference_requirements_for_restoring_a_virtual_machine.html"
-    - title: Restoring a virtual machine from a backup copy
-      url: "/task_restoring_a_virtual_machine_from_a_backup_copy.html"
-  - title: Performing a cluster operating system rolling upgrade
-    url: "/concept_performing_a_cluster_os_rolling_upgrade.html"
+    - title: Restore a virtual machine from a backup copy
+      url: "/task_restore_a_virtual_machine_from_a_backup_copy.html"
+  - title: Perform a cluster operating system rolling upgrade
+    url: "/concept_perform_a_cluster_os_rolling_upgrade.html"
     entries:
-    - title: Mapping LUNs in mixed operating system mode
-      url: "/task_mapping_luns_after_the_windows_server_2016_node_addition.html"
-    - title: Updating the dataset and SnapInfo across all nodes
-      url: "/task_updating_the_dataset_and_snapinfo_across_all_nodes.html"
-  - title: Performing disaster recovery
-    url: "/concept_performing_disaster_recovery.html"
+    - title: Map LUNs in mixed operating system mode
+      url: "/task_map_luns_after_the_windows_server_2016_node_addition.html"
+    - title: Update the dataset and SnapInfo across all nodes
+      url: "/task_update_the_dataset_and_snapinfo_across_all_nodes.html"
+  - title: Perform disaster recovery
+    url: "/concept_perform_disaster_recovery.html"
     entries:
-    - title: Configuring SnapManager for Hyper-V for failover
-      url: "/concept_configuring_snapmanager_for_hyper_v_for_failover.html"
-    - title: Recovering and restoring from a disaster recovery failover
-      url: "/task_recovering_and_restoring_from_a_disaster_recovery_failover.html"
-    - title: Reconfiguring storage systems after a disaster recovery failback
-      url: "/task_reconfiguring_storage_systems_after_a_disaster_recovery_failback.html"
-    - title: Restoring the original configuration for standalone hosts
-      url: "/task_restoring_the_original_configuration_for_standalone_hosts.html"
-    - title: Restoring the original configuration for clustered hosts
-      url: "/task_restoring_the_original_configuration_for_clustered_hosts.html"
-  - title: Troubleshooting SnapManager for Hyper-V
-    url: "/concept_snapmanager_for_hyper_v_troubleshooting.html"
+    - title: Configure SnapManager for Hyper-V for failover
+      url: "/concept_configure_snapmanager_for_hyper_v_for_failover.html"
+    - title: Recover and restor from a disaster recovery failover
+      url: "/task_recover_and_restore_from_a_disaster_recovery_failover.html"
+    - title: Reconfigure storage systems after a disaster recovery failback
+      url: "/task_reconfigure_storage_systems_after_a_disaster_recovery_failback.html"
+    - title: Restore the original configuration for standalone hosts
+      url: "/task_restore_the_original_configuration_for_standalone_hosts.html"
+    - title: Restore the original configuration for clustered hosts
+      url: "/task_restore_the_original_configuration_for_clustered_hosts.html"
+  - title: Troubleshoot SnapManager for Hyper-V
+    url: "/concept_snapmanager_for_hyper_v_troubleshoot.html"
     entries:
     - title: Backup Failed for the following VM(s) since it cannot be backedup online
         or No VM to be found for backup
@@ -212,7 +212,7 @@ sidebar:
       url: "/reference_msi_custom_property_used_in_silent_installation.html"
     - title: SnapManager for Hyper-V is not licensed on the host or in the Storage System
       url: "/reference_snapmanager_for_hyper_v_is_not_licensed_on_the_host_or_in_the_storage_system.html"
-    - title: Deleting backups after failover
+    - title: Delete backups after failover
       url: "/reference_secondary_machine_unable_to_delete_backups_after_failover.html"
     - title: Storage performance degrades after failed backup
       url: "/reference_storage_performance_degrades_after_failed_backup.html"
@@ -246,8 +246,8 @@ sidebar:
       url: "/reference_some_types_of_failures_do_not_generate_error_message.html"
     - title: Restore failure after storage system volume renaming
       url: "/reference_restore_failure_after_storage_system_volume_renaming.html"
-    - title: Restoring from a backup after failback
-      url: "/reference_restoring_from_a_backup_after_failback.html"
+    - title: Restore from a backup after failback
+      url: "/reference_restore_from_a_backup_after_failback.html"
     - title: Web Service Client channel unable to connect while updating the dataset
         to the new node
       url: "/reference_web_service_client_channel_unable_to_connect_while_updating_the_dataset_to_the_new_node.html"

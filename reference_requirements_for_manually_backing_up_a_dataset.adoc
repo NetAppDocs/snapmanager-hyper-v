@@ -51,7 +51,7 @@ The default behavior of SnapManager for Hyper-V is to fail a backup if one or mo
 
 You can also modify the existing policy by selecting the Allow saved state VM backup check box. This allows SnapManager for Hyper-V to back up the virtual machine in the saved state. If you select this option, SnapManager for Hyper-V does not fail the backup when the Hyper-V VSS writer backs up the virtual machine in the saved state or performs an offline backup of the virtual machine. Performing a saved state or offline backup can cause downtime.
 
-The distributed application-consistent backup feature enables multiple VMs running on the partner cluster nodes to be consistent in one single hardware Snapshot copy made from the backup node. This feature is supported for all the VMs running on a CSV 2.0 Windows volume across multiple nodes in a Windows Failover Cluster.
+The `distributed application-consistent backup` feature enables multiple VMs running on the partner cluster nodes to be consistent in one single hardware Snapshot copy made from the backup node. This feature is supported for all the VMs running on a CSV 2.0 Windows volume across multiple nodes in a Windows Failover Cluster.
 
 == Secondary storage in a SnapMirror backup
 

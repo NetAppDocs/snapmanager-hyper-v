@@ -36,6 +36,7 @@ This limitation does not apply to crash-consistent backups. It only applies to t
 * The following Hyper-V Servers do not support application-consistent backups of VMs:
  ** Microsoft Hyper-V Server 2016 (free edition)
  ** Microsoft Hyper-V Server 2019 (free edition)
++
 Note that this limitation does not apply to crash-consistent backups or the following Windows platforms:
  ** Microsoft Windows Server 2016 Standard and Datacenter Edition
  ** Microsoft Windows Server 2019 Standard and Datacenter Edition

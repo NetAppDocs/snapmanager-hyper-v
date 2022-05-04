@@ -20,6 +20,10 @@ After creating a dataset backup, SnapManager for Hyper-V creates a Snapshot copy
 +
 You can configure the number of SnapInfo Snapshot copies you want to retain for each Hyper-V host by using one of the following registry keys:
 +
-For stand-alone Hyper-V hosts: key: HKLM\SOFTWARE\NetApp\SnapManager for Hyper-V\Server\<hostname> DWORD value: snapinfo_snaps_count (number of SnapInfo Snapshot copies to be retained)
+For stand-alone Hyper-V hosts: key:
 +
-For clustered Hyper-V hosts (to be configured on each node in the cluster): key: HKLM\Cluster\SOFTWARE\NetApp\SnapManager for Hyper-V\Server\<clustername> DWORD value: snapinfo_snaps_count (number of SnapInfo Snapshot copies to be retained)
+`HKLM\SOFTWARE\NetApp\SnapManager for Hyper-V\Server\<hostname> DWORD value: snapinfo_snaps_count (number of SnapInfo Snapshot copies to be retained)`
++
+For clustered Hyper-V hosts (to be configured on each node in the cluster): key:
++
+`HKLM\Cluster\SOFTWARE\NetApp\SnapManager for Hyper-V\Server\<clustername> DWORD value: snapinfo_snaps_count (number of SnapInfo Snapshot copies to be retained)`

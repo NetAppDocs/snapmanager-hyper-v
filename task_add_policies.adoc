@@ -1,0 +1,31 @@
+---
+permalink: task_add_policies.html
+sidebar: sidebar
+keywords: add, retention, schedule, scheduling, replication, policies, policy, script, dataset, data, protect
+summary: You can add retention, scheduling, and replication policies, as well as scripts, to your datasets so that you can protect your data.
+---
+= Add policies
+:experimental:
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+You can add retention, scheduling, and replication policies, as well as scripts, to your datasets so that you can protect your data.
+
+.What you'll need
+You must have the following information available:
+
+* Policy names and descriptions
+* Retention information
+* Scheduling information
+* Backup options information
+* Backup script information
+
+.Steps
+. From the navigation pane, click menu:Protection[Datasets].
+. Select the dataset to which you want to add policies.
+. From the Actions pane, click *Add policy*.
++
+The Create Policy wizard appears.
+
+. Complete the steps in the wizard to create protection policies for your dataset.

@@ -10,7 +10,7 @@ summary: "Backup Failed for the following VM(s) since it cannot be backed up onl
 
 * *Message*
 +
-Backup Failed for the following VM(s) since it cannot be backed up online or NO VM to be found for backup
+`Backup Failed for the following VM(s) since it cannot be backed up online or NO VM to be found for backup`
 
 * *Description*
 +
@@ -18,4 +18,4 @@ This message occurs when backing up a Windows 2012 VM in a Windows 2008 R2 SP1 H
 
 * *Corrective action*
 +
-For Windows 2012 backups, run the backup with the Allow saved state VM backup option enabled.
+For Windows 2012 backups, run the backup with the `Allow saved state` VM backup option enabled.

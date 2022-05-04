@@ -10,7 +10,7 @@ summary: Restore failure after storage system volume renaming.
 
 * *Message*
 +
-Some of the storage system snapshots required to restore the VM are missing or inconsistent.
+`Some of the storage system snapshots required to restore the VM are missing or inconsistent.`
 
 * *Description*
 +

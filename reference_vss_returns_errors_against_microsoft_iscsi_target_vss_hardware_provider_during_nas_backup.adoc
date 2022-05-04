@@ -12,9 +12,9 @@ summary: VSS returns errors against Microsoft iSCSI Target VSS Hardware Provider
 +
 While performing a NAS backup, the following errors might occur:
 +
-Vss Requestor - Backup Components failed. Failed to add volume [example] to snapshot set. The shadow copy provider had an unexpected error while trying to process the specified operation.
+`Vss Requestor - Backup Components failed. Failed to add volume [example] to snapshot set. The shadow copy provider had an unexpected error while trying to process the specified operation.``
 +
-Volume Shadow Copy Service error: Error creating the Shadow Copy Provider COM class with CLSID [example]. Access is denied.
+`Volume Shadow Copy Service error: Error creating the Shadow Copy Provider COM class with CLSID [example]. Access is denied.`
 
 * *Cause*
 +

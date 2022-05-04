@@ -1,0 +1,34 @@
+---
+permalink: task_set_up_a_snapinfo_lun.html
+sidebar: sidebar
+keywords: add, snapinfo, lun, snapmanager, hyper-v, store, dataset, backup, metadata, reside, ontap, setting, up
+summary: "You must add a SnapInfo LUN in SnapManager for Hyper-V to store the dataset backup metadata. The SnapInfo path must reside on a ONTAP LUN, because SnapManager for Hyper-V makes a backup of the SnapInfo copy after a regular backup occurs."
+---
+= Set up a SnapInfo LUN
+:experimental:
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+You must add a SnapInfo LUN in SnapManager for Hyper-V to store the dataset backup metadata. The SnapInfo path must reside on a ONTAP LUN, because SnapManager for Hyper-V makes a backup of the SnapInfo copy after a regular backup occurs.
+
+.What you'll need
+The SnapInfo path can reside on a Cluster Shared Volume (CSV) if you are running a Windows Server 2012 cluster. If you manage dedicated virtual machines, the SnapInfo location must be to a dedicated ONTAP LUN. If you manage shared virtual machines, the SnapInfo location must be to a shared ONTAP LUN.
+
+.Steps
+. Create a new shared disk by using SnapDrive for Windows.
+ .. When given the option to choose a Microsoft Cluster Services Group, select the option *Create a new cluster group.*
+ .. Name the group `smhv_snapinfo` and complete the process.
+. Open Windows Failover Clustering (WFC) and verify that the new group is online.
+. Install SnapManager for Hyper-V on each node in the cluster.
+. Run the *Configuration* wizard and apply the SnapInfo configuration settings to all nodes in the cluster.
+ .. Select one of the hosts.
+ .. From the *Navigation* pane, click menu:Protection[Hosts].
+ .. From the Actions pane, run the *Configuration* wizard.
+ .. Apply the SnapInfo settings to the newly created LUN.
+
+.Results
+When the Configuration wizard is run, the SnapInfo configuration settings are replicated to all nodes in the cluster.
+*Related information*
+
+xref:reference_error_snapdrive_sddiscoveryfilesystemlistinfo_response_is_null.adoc[Error: Snapdrive SDDiscoveryFileSystemListInfo response is null]

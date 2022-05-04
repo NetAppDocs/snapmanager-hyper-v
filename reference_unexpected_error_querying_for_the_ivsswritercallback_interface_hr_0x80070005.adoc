@@ -10,7 +10,7 @@ summary: "Unexpected error querying for the IVssWriterCallback interface. hr = 0
 
 * *Message*
 +
-Unexpected error querying for the IVssWriterCallback interface. hr = 0x80070005, Access is denied.
+`Unexpected error querying for the IVssWriterCallback interface. hr = 0x80070005, Access is denied.`
 
 * *Description*
 +

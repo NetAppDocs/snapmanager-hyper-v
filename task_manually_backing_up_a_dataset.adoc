@@ -5,12 +5,14 @@ keywords: create, on-demand, backup, dataset, back, up, manual
 summary: You can create an on-demand backup of a dataset.
 ---
 = Manually backing up a dataset
+:experimental:
 :icons: font
 :imagesdir: ./media/
 
 [.lead]
 You can create an on-demand backup of a dataset.
 
+.What you'll need
 You must have the following information available:
 
 * Backup name and description
@@ -19,13 +21,15 @@ You must have the following information available:
 * Backup type
 * Backup options information
 
-. From the navigation pane, click *Protection* > *Datasets*.
+.Steps
+. From the navigation pane, click menu:Protection[Datasets].
 . Select the dataset for which you want to create a manual backup and click *Backup*.
 +
-The Backup wizard appears.
+The *Backup wizard* appears.
 
 . Complete the steps in the wizard to create your on-demand backup.
 +
 Closing the wizard does not cancel the on-demand backup.
 
+.Results
 You can view the status of the on-demand backup in the Jobs Management window.

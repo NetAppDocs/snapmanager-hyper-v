@@ -2,7 +2,7 @@
 permalink: concept_data_management_concepts.html
 sidebar: sidebar
 keywords: snapmanager, hyper-v, dataset, policies, policy, enable, group, virtual, machine, apply, rule, retention, data, management, concept
-summary: "SnapManager for Hyper-V uses datasets and policies, which enables you to group virtual machines and then apply rules to these groups to govern their behavior." 
+summary: "SnapManager for Hyper-V uses datasets and policies, which enables you to group virtual machines and then apply rules to these groups to govern their behavior."
 ---
 = Data management concepts
 :icons: font
@@ -50,11 +50,11 @@ You can set the following retention periods in SnapManager for Hyper-V:
  ** One week
  ** One month
  ** Unlimited
-*Note:* You can specify a retention period once per dataset.
+ 
+NOTE: You can specify a retention period once per dataset.
 
-+
 After choosing how often dataset backups are deleted, you can choose to delete either backups that are older than a specified period of time or backups that exceed a maximum total.
-+
+
 If your system appears to retain old backups, check your retention policies. All objects being backed up that share a Snapshot copy must meet the backup deletion criteria in order for the retention policy to trigger the removal of a Snapshot copy.
 
 * *replication policies*

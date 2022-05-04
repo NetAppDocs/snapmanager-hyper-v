@@ -18,4 +18,4 @@ This delay occurs because SnapManager for Hyper-V tries IPv4 protocol first.
 
 * *Corrective action*
 +
-To work around this delay, add the host in the \windows\system32\drivers\etc\hosts file.
+To work around this delay, add the host in the `\windows\system32\drivers\etc\hosts` file.

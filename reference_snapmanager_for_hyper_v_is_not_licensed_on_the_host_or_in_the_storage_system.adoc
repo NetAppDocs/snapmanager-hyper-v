@@ -10,7 +10,7 @@ summary: "SnapManager for Hyper-V is not licensed on the host or in the Storage 
 
 * *Message*
 +
-SnapManager for Hyper-V is not licensed on the host or in the Storage System, backup is aborted
+`SnapManager for Hyper-V is not licensed on the host or in the Storage System, backup is aborted`
 
 * *Description*
 +
