@@ -1,0 +1,30 @@
+---
+permalink: concept-report-management.html
+sidebar: sidebar
+keywords: view, delete, backup, restore, configuration, report, snapmanager, hyper-v, information, virtual, machine, vm, managing, manage
+summary: "You can view and delete backup, restore, and configuration reports in SnapManager for Hyper-V. These reports contain important information about your datasets, virtual machines, and hosts. You can also export reports in several different formats."
+---
+= Managing reports
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+You can view and delete backup, restore, and configuration reports in SnapManager for Hyper-V. These reports contain important information about your datasets, virtual machines, and hosts. You can also export reports in several different formats.
+
+* *Backup reports*
++
+Backup reports display all of the backup information for all hosts belonging to a particular dataset. You can view a backup report for either a dataset or a virtual machine. Reports displayed for a virtual machine use the virtual machine name instead of its GUID.
++
+When the backup report is displayed, you can export it into several different formats.
+
+* *Restore reports*
++
+Restore reports display all of the information about the restore operation on a per-VM basis.
++
+When the restore report is displayed, you can export it into several different formats.
+
+* *Configuration reports*
++
+Configuration reports display the notification settings, report path, and SnapInfo path for the selected host.
++
+When the configuration report is displayed, you can export it into several different formats.

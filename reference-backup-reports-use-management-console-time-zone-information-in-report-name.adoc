@@ -1,0 +1,21 @@
+---
+permalink: reference-backup-reports-use-management-console-time-zone-information-in-report-name.html
+sidebar: sidebar
+keywords: backup, report, use, management, console, time, zone, information, report, name
+summary: Backup reports use management console time zone information in report name.
+---
+= Backup reports use management console time zone information in report name
+:icons: font
+:imagesdir: ./media/
+
+* *Issue*
++
+When you generate a backup report using a client host that resides in a different time zone than the parent host, the report name uses the client host time zone information and the report contents use the parent host time zone.
+
+* *Cause*
++
+The timestamp in the backup report name appears with the client host time zone information.
+
+* *Corrective action*
++
+No corrective action is necessary.

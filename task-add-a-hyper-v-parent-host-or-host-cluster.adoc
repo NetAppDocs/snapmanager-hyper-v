@@ -1,0 +1,22 @@
+---
+permalink: task-add-a-hyper-v-parent-host-or-host-cluster.html
+sidebar: sidebar
+keywords: add, hyper-v, parent, host, cluster, back, up, restore, virtua, machine
+summary: "You can add a Hyper-V parent host or host cluster to back up and restore your virtual machines."
+---
+= Add a Hyper-V parent host or host cluster
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+You can add a Hyper-V parent host or host cluster to back up and restore your virtual machines.
+
+.Steps
+. From the navigation pane, click *Protection*.
+. From the Actions pane, click *Add host*.
+. Run the *Add host* wizard.
+
+.After you finish
+When you add a host to a cluster, the information about the new host is not automatically displayed in the GUI. Manually add the host information to the xml file in the installation directory.
+
+SnapManager for Hyper-V must be installed on each cluster node. If you do not have SnapManager for Hyper-V installed, you are prompted to run the Remote Host Install wizard.

@@ -1,0 +1,45 @@
+---
+permalink: task-map-luns-after-the-windows-server-2016-node-addition.html
+sidebar: sidebar
+keywords: perform, cluster, os, rolling, upgrade, procedure, unmap, lun, windows, r2, node, server, cluster, mixed, operating, system, map
+summary: When you perform a cluster OS rolling upgrade, you can use the following procedure to unmap the LUNs from the Windows 2012 R2 node and remap them to the Windows Server 2016 node after it is added to the cluster.
+---
+= Map LUNs in mixed operating system mode
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+When you perform a cluster OS rolling upgrade, you can use the following procedure to unmap the LUNs from the Windows 2012 R2 node and remap them to the Windows Server 2016 node after it is added to the cluster.
+
+.What you'll need
+The Windows Server 2016 node must be added to the cluster.
+
+NOTE: Cluster Rolling upgrade is supported from Windows Server 2016 to Windows Server 2019
+
+.Steps
+. Log in to the ONTAP System Manager.
+. Select the LUN that was mapped to Windows 2012 R2.
+. Click *Edit* and select *Initiator* Groups.
++
+image::mixed_os_mode_3.gif[]
+
+. Uncheck the igroup of the removed node from the cluster.
+. Add a new Initiator Group for all the newly added Windows 2016 nodes.
++
+image::mixed_os_mode_4.gif[]
+
+. Select the checkbox beside the newly created initiator group to map the LUN to the Windows 2016 host that was added to the cluster.
++
+image::mixed_os_mode_6.gif[]
+
+. Repeat Steps 4 and 6 to map every LUN to Windows 2016 nodes.
++
+All LUNs should be visible in the Windows 2016 node.
+
+. Rescan the disks from the disk management tool in the Windows 2016 nodes.
++
+image::mixed_os_mode_8.gif[]
+
+. Add the storage management LIF in the new Windows 2016 SnapDrive transport protocol settings (TPS) and then refresh the disks.
++
+image::mixed_os_mode_9.gif[]

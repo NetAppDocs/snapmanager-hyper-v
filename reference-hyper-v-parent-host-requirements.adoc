@@ -1,0 +1,46 @@
+---
+permalink: reference-hyper-v-parent-host-requirements.html
+sidebar: sidebar
+keywords: hyper-v, parent, host, physical, server, enable, contain, virtual, machine, snapmanager, requirement
+summary: "Hyper-V parent hosts are physical servers on which the Hyper-V role is enabled." 
+---
+= Hyper-V parent host requirements
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+Hyper-V parent hosts are physical servers on which the Hyper-V role is enabled. Host servers that contain virtual machines are added to SnapManager for Hyper-V for protection and recovery. To install and run all of the SnapManager for Hyper-V software components, you must ensure that the Hyper-V parent hosts meet minimum operating system and Hyper-V requirements.
+
+* *Supported operating systems*
++
+SnapManager for Hyper-V runs on the following operating systems:
+
+ ** Windows Server 2008 R2 SP1
+ ** Windows Server 2012 R2
+ ** Windows Server 2012
+ ** Windows Server 2016
+ ** Windows Server 2019
+
+* *Supported management console operating systems*
++
+Management consoles must be running the following operating systems:
+
+ ** Windows Server 2008 R2 SP1
+ ** Windows Server 2012 R2
+ ** Windows Server 2012
+ ** Windows Server 2016
+ ** Windows Server 2019
+
+* *Hyper-V requirements*
++
+For more information, see the Hyper-V getting started information in the Microsoft TechNet library.
+
+* *Internationalization support*
++
+SnapManager for Hyper-V has been tested on German-language and Japanese-language operating systems.
+
+*Related information*
+
+http://technet.microsoft.com/library/cc753637(WS.10).aspx[Microsoft TechNet: Hyper-V]
+
+http://mysupport.netapp.com/matrix[NetApp Interoperability Matrix Tool]

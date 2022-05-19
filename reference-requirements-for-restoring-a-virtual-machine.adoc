@@ -1,0 +1,56 @@
+---
+permalink: reference-requirements-for-restoring-a-virtual-machine.html
+sidebar: sidebar
+keywords: restore, virtual, machine, backup, copy, requirement
+summary: To restore a virtual machine from a backup copy, you must first determine how you want to restore the backup copy.
+---
+= Requirements for restoring a virtual machine
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+To restore a virtual machine from a backup copy, you must first determine how you want to restore the backup copy.
+
+== VM backup copy name
+
+You must decide which backup copy you want to restore.
+
+All backup copies are listed by name in the Backups pane of the Recovery Management window.
+
+== VM backup copy type
+
+Restoring a VM from an application-consistent backup is done in coordination with VSS. Hyper-V VSS writer deletes the VM before restoring and registers the VM to Hyper-V Manager after the restore operation finishes.
+
+Restoring a VM from a crash-consistent backup does not involve VSS. The VM is turned off prior to the restore operation. When you are restoring from a crash-consistent backup, the VM must exist; restoring a deleted VM from a crash-consistent backup fails.
+
+== VM backup copy status
+
+You must determine if the virtual machine still exists.
+
+If the virtual machine no longer exists, you can still restore it if the LUNs on which the virtual machine was created still exist. The LUNs must have the same drive letters and Windows volume GUIDs as at the time of backup.
+
+If you delete a virtual machine in Windows Server 2008 R2, you can restore the virtual machine from an application-consistent backup, but in Windows Server 2012 and Windows Server 2012 R2, you can restore a deleted virtual machine from both a crash- and application-consistent backup.
+
+If the virtual machine was removed from all datasets before it was deleted, you can still restore it by selecting Unprotected Resources and selecting a backup to which it belonged.
+
+== VM backup copy configuration status
+
+You must determine if the virtual machine configuration is the same as it was at the time of the backup.
+
+If the current virtual machine configuration is different than at the time of backup, SnapManager for Hyper-V notifies you that the virtual machine layout has changed, and asks you if you would like to restore the virtual machine configuration and data as it existed in the backup.
+
+NOTE: Because SnapManager for Hyper-V does not back up the cluster configuration of the virtual machine, it cannot restore the cluster configuration. If the virtual machine and cluster configuration are lost, you can restore the virtual machine from SnapManager for Hyper-V, but you have to manually make it highly available.
+
+If the virtual machine is configured differently than the current configuration of the virtual machine in the backup, you might need to update the cluster configuration to reflect any newly added or removed virtual hard disks (VHDs).
+
+== Snapshot copy status
+
+You can verify that the backup Snapshot copies exist on the storage system before attempting the restore operation.
+
+== VM restart
+
+You can choose to start the virtual machine after it is restored.
+
+*Related information*
+
+http://technet.microsoft.com/library/ff182338(v=WS.10).aspx[Microsoft TechNet: Failover Clusters in Windows Server 2008 R2]

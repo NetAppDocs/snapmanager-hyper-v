@@ -1,0 +1,40 @@
+---
+permalink: reference-list-of-requirements-for-installing-snapmanager-for-hyper-v.html
+sidebar: sidebar
+keywords: environment, hardware, software, ontap, license, licensing, requirement, install, snapmanager, hyper-v, windows, .net, 4.5
+summary: "Your environment must meet all hardware, software, ONTAP, and licensing requirements before you can install SnapManager for Hyper-V." 
+---
+= List of requirements for installing SnapManager for Hyper-V
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+Your environment must meet all hardware, software, ONTAP, and licensing requirements before you can install SnapManager for Hyper-V. The installer stops if the requirements for the minimum Windows operating system and .Net 4.5 are not met.
+
+== Hyper-V parent host requirements
+
+You must have the Hyper-V parent hosts running Windows Server 2008 R2 or higher. You must have the Hyper-V roles enabled on the parent hosts. You must have SnapDrive 7.1 for Windows or later installed on the Hyper-V parent host.
+
+== SnapManager for Hyper-V download
+
+You must have downloaded the SnapManager for Hyper-V software from the NetApp Support Site.
+
+== Storage system requirements
+
+The storage system must run the appropriate version of the ONTAP software. You can use either host-based or storage system licensing to install SnapManager for Hyper-V.
+
+== Licenses
+
+You must have the appropriate licenses to run SnapManager for Hyper-V.
+
+== Credentials
+
+You must have the appropriate credentials to install and run SnapManager for Hyper-V.
+
+== Service account and authentication requirements
+
+You must have a service account and must meet the authentication requirements. You must be able to log in to the host using the service account, and that account must have administrative rights.
+
+== Web service port number
+
+You must have the Web service Net.Tcp port number available. The default port number is 808. When installing SnapManager for Hyper-V on a cluster, you must make sure that the same port number is used across all nodes.

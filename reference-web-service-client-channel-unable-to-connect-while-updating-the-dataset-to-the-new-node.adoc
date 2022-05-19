@@ -1,0 +1,29 @@
+---
+permalink: reference-web-service-client-channel-unable-to-connect-while-updating-the-dataset-to-the-new-node.html
+sidebar: sidebar
+keywords: web, service, client, channel, unable, connect, update, updating, dataset, new, node
+summary: Web Service Client channel unable to connect while updating the dataset to the new node.
+---
+= Web Service Client channel unable to connect while updating the dataset to the new node
+:icons: font
+:imagesdir: ./media/
+
+* *Issue*
++
+If a Web Services Client is not explicitly started, it will fail to connect to SnapManager for Hyper-V.
+
+* *Cause*
++
+SnapManager for Hyper-V no longer automatically starts a Web Services Client channel. If the Web Service Client channel is unable to connect while updating a dataset to a new node, it may be for one of the following reasons:
+
+ ** Web Services has not been started.
+ ** SnapManager for Hyper-V is not installed.
+ ** The Web Services host is down.
+
+* *Corrective action*
++
+To correct this behavior, be sure you have performed the following tasks:
+
+ ** Start Web Services.
+ ** Install SnapManager for Hyper-V.
+ ** Restart the Web Services host.
