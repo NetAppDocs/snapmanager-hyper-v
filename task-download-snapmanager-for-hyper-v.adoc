@@ -17,7 +17,7 @@ You must have login credentials for the NetApp Support Site.
 .Steps
 . Log in to the NetApp Support Site.
 . Go to the Download Software page.
-. From the drop-down list, select the operating system on which you are installing SnapManager for Hyper-V and click *Go!*.
+. From the drop-down list, select the operating system on which you are installing SnapManager for Hyper-V and click *Go!*
 . Click *View & Download* for the software version you want to install.
 . On the Description page, click *Continue*.
 . Review and accept the license agreement.

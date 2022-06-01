@@ -25,4 +25,4 @@ None available for this release.
  . Add the test1 name to the DNS with both IP addresses.
  . On a Windows Server 2012 host, install SnapManager for Hyper-V and create some VMs using the CIFS shares from test1.
  . Create a backup copy that includes those VMs.
- . Note that the backup job fails with the error `Backup Components failed. Failed to call keep snapshot set. Reason Index and count must refer to a location within the string.`
+ . Note that the backup job fails with the error: `Backup Components failed. Failed to call keep snapshot set. Reason Index and count must refer to a location within the string.`

@@ -17,7 +17,7 @@ A SnapManager suite license is required on the Windows host system. You can choo
 
 == Per server license
 
-This is also known as _host-based licensing_. If you select host-based licensing, you must provide a SnapManager suite license key during installation, which you can change later if you need to. You can change the license key after installation by clicking *License settings* in the SnapManager for Hyper-VWelcome window. Each parent host requires a SnapManager suite license.
+This is also known as _host-based licensing_. If you select host-based licensing, you must provide a SnapManager suite license key during installation, which you can change later if you need to. You can change the license key after installation by clicking *License settings* in the SnapManager for Hyper-V Welcome window. Each parent host requires a SnapManager suite license.
 
 == Per storage system license
 

@@ -22,7 +22,7 @@ Snapshot copy verification uses volume GUIDs. GUIDs changes after disaster recov
 You can disable the Verify Snapshots option through the PowerShell or the Restore wizard:
 
  ** Uncheck the "Enable Snapshot Verification" option in the *Restore Options* page of the Restore wizard.
- ** Using PowerShell, make sure that -DisableVerifySnapshot parameter is specified.
+ ** Using PowerShell, make sure that - `DisableVerifySnapshot` parameter is specified.
 
 *Related information*
 

@@ -51,7 +51,7 @@ A second reason this message occurs is because Windows cannot perform an online 
 
 * *Corrective action*
 +
-You must disable the `scoped snapshots` option by creating a DWORD ScopeSnapshots parameter with value 0 in:
+You must disable the `scoped snapshots` option by creating a DWORD `ScopeSnapshots` parameter with value 0 in:
 +
 `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsNT\CurrentVersion\SystemRestore\`
 +

@@ -19,8 +19,7 @@ A policy name and description, limited to these characters:
 * A to Z
 * 0 to 9
 * _ (underscore)
-* {blank}
- ** (hyphen)
+* - (hyphen)
 
 == Backup retention limits
 
@@ -80,7 +79,7 @@ You can use the following environment variables in arguments for backup postscri
 * *$SnapInfoName*: Specifies the timestamp used in the SnapInfo directory name.
 * *$SnapInfoSnapshot*: Specifies the name of the SnapInfo Snapshot copy created on the storage system. SnapManager for Hyper-V makes a Snapshot copy of the SnapInfo LUN at the end of the dataset backup operation.
 +
-NOTE: The $SnapInfoSnapshot variable is supported for dedicated virtual machines only.
+NOTE: The *$SnapInfoSnapshot* variable is supported for dedicated virtual machines only.
 
 *Related information*
 

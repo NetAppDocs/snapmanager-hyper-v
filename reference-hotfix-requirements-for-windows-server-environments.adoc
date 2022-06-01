@@ -11,7 +11,7 @@ summary: You must manually install hotfixes to Microsoft Windows Server operatin
 [.lead]
 You must manually install hotfixes to Microsoft Windows Server operating system environments.
 
-NOTE: For Windows Server 2016 and Windows Server 2019 requirements, refer to https://docs.microsoft.com/en-us/windows-server/virtualization/hyper-v/hyper-v-on-windows-server:
+NOTE: For Windows Server 2016 and Windows Server 2019 requirements, refer to https://docs.microsoft.com/en-us/windows-server/virtualization/hyper-v/hyper-v-on-windows-server[Hyper-V on Windows Server^]
 
 For Windows Server 2012, the following hotfixes are required:
 

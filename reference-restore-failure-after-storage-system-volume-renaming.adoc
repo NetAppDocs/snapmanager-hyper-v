@@ -20,5 +20,5 @@ If storage system volumes are renamed, you cannot restore a virtual machine (VM)
 +
 If storage system volumes are renamed and you need to restore a VM from a backup created prior to renaming volumes, then complete the following:
 
- ** While restoring a VM from MMC, make sure that "Enable Snapshot Verification" option is unchecked in the **Restore Options**page of the Restore wizard.
- ** While restoring a VM by using PowerShell, make sure that -DisableVerifySnapshot parameter is specified.
+ ** While restoring a VM from MMC, make sure that "Enable Snapshot Verification" option is unchecked in the *Restore Options* page of the Restore wizard.
+ ** While restoring a VM by using PowerShell, make sure that -`DisableVerifySnapshot` parameter is specified.

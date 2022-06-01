@@ -23,7 +23,7 @@ Backup names and descriptions are limited to these characters:
 * A to Z
 * 0 to 9
 * _ (underscore)
-* hyphen
+* - (hyphen)
 
 == Policy choice
 

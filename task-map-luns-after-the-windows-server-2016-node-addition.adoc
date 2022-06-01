@@ -19,7 +19,7 @@ NOTE: Cluster Rolling upgrade is supported from Windows Server 2016 to Windows S
 .Steps
 . Log in to the ONTAP System Manager.
 . Select the LUN that was mapped to Windows 2012 R2.
-. Click *Edit* and select *Initiator* Groups.
+. Click *Edit* and select *Initiator Groups*.
 +
 image::mixed_os_mode_3.gif[]
 

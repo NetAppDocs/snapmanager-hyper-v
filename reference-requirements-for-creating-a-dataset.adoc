@@ -2,7 +2,7 @@
 permalink: reference-requirements-for-creating-a-dataset.html
 sidebar: sidebar
 keywords: specific, requirement, create, dataset, protect, data, host, cluster, snapmanager, hyper-v
-summary: You must meet specific requirements when you want to create datasets to protect your data. 
+summary: You must meet specific requirements when you want to create datasets to protect your data.
 ---
 = Requirements for creating a dataset
 :icons: font
@@ -19,7 +19,7 @@ When naming the dataset, you should use a naming convention at your site to help
 * A to Z
 * 0 to 9
 * _ (underscore)
-* hyphen
+* - (hyphen)
 
 == Dataset resources
 

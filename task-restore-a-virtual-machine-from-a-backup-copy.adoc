@@ -37,7 +37,7 @@ The Restore wizard appears.
 Closing the wizard does not cancel the restore operation. SnapManager for Hyper-V validates the virtual machine configuration before beginning the restore operation. If there have been any changes in the virtual machine configuration, a warning appears, enabling you to choose to continue or to cancel the operation.
 
 .After you finish
-You can view the status of the restore operation in the Jobs Management window or check the operation results by viewing the report in the Reports Management window.
+You can view the status of the restore operation in the *Jobs Management* window or check the operation results by viewing the report in the *Reports Management* window.
 
 *Related information*
 
