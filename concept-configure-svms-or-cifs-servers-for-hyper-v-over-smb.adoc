@@ -13,4 +13,4 @@ Configuring a single storage virtual machine (SVM) or CIFS server for multiple a
 
 *Related information*
 
-https://kb.netapp.com/support/index?page=content&id=1015099[NetApp KB Article 1015099: How to set up SVM/CIFS for Hyper-V over SMB]
+https://kb.netapp.com/Advice_and_Troubleshooting/Data_Protection_and_Security/SnapManager_Suite/How_to_set_up_SVM%2F%2FCIFS_for_Hyper-V_over_SMB[NetApp KB Article 1015099: How to set up SVM/CIFS for Hyper-V over SMB^]
