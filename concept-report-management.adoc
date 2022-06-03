@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, delete, backup, restore, configuration, report, snapmanager, hyper-v, information, virtual, machine, vm, managing, manage
 summary: "You can view and delete backup, restore, and configuration reports in SnapManager for Hyper-V. These reports contain important information about your datasets, virtual machines, and hosts. You can also export reports in several different formats."
 ---
-= Managing reports
+= Manage reports
 :icons: font
 :imagesdir: ./media/
 
