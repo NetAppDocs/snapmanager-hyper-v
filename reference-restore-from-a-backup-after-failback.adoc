@@ -1,0 +1,29 @@
+---
+permalink: reference-restore-from-a-backup-after-failback.html
+sidebar: sidebar
+keywords: restore, restoring, backup, failback
+summary: Restoring from a backup after failback.
+---
+= Restore from a backup after failback
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+* *Issue*
++
+If you perform a failover and failback, you may not be able to restore VMs on your primary site from a backup created on the same primary site, before the failover.
+
+* *Cause*
++
+Snapshot copy verification uses volume GUIDs. GUIDs changes after disaster recovery.
+
+* *Corrective Action*
++
+You can disable the Verify Snapshots option through the PowerShell or the Restore wizard:
+
+ ** Uncheck the "Enable Snapshot Verification" option in the *Restore Options* page of the Restore wizard.
+ ** Using PowerShell, make sure that - `DisableVerifySnapshot` parameter is specified.
+
+*Related information*
+
+xref:task-restore-a-virtual-machine-from-a-backup-copy.adoc[Restore a virtual machine from a backup copy]

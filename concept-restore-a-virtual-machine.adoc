@@ -1,0 +1,20 @@
+---
+permalink: concept-restore-a-virtual-machine.html
+sidebar: sidebar
+keywords: snapmanager, hyper-v, restore, virtual, machine, vm, cluster, restoring, backup, copy
+summary: "You can use SnapManager for Hyper-V to restore a virtual machine (VM) from a backup copy. You can also restore a VM that is part of a cluster. SnapManager for Hyper-V determines the appropriate node in the cluster to which to restore the VM."
+---
+= Restore a virtual machine from a backup copy
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+You can use SnapManager for Hyper-V to restore a virtual machine (VM) from a backup copy. You can also restore a VM that is part of a cluster. SnapManager for Hyper-V determines the appropriate node in the cluster to which to restore the VM.
+
+To restore a VM, SnapManager for Hyper-V uses the file-level restore feature in SnapDrive for Windows. You can spread the associated files of a VM, including the configuration file, Snapshot copies, and any VHDs, across multiple ONTAP LUNs. A LUN can contain files belonging to multiple VMs.
+
+If a LUN contains only files associated with the VM that you want to restore, SnapManager for Hyper-V restores the LUN by using LCSR (LUN clone split restore). If a LUN contains additional files not associated with the virtual machine that you want to restore, SnapManager for Hyper-V restores the virtual machine by using the file copy restore operation.
+
+*Related information*
+
+http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=30049[NetApp Documentation: SnapDrive for Windows (current releases)]

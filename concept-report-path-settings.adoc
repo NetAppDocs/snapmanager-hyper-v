@@ -1,0 +1,20 @@
+---
+permalink: concept-report-path-settings.html
+sidebar: sidebar
+keywords: configure, report, path, setting, store, snapmanager, hyper-v, operation, configure, virtual, machine, dataset
+summary: "You can configure report path settings so that you can store reports for SnapManager for Hyper-V operations. You must configure the report path settings before you can add virtual machine resources to a dataset."
+---
+= Report path settings
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+You can configure report path settings so that you can store reports for SnapManager for Hyper-V operations. You must configure the report path settings before you can add virtual machine resources to a dataset.
+
+If the report settings are not configured when a Hyper-V parent host is added to SnapManager for Hyper-V, you can configure (and even change) those settings later, using the Configuration wizard.
+
+If you configure the report path settings for a parent host cluster, you must manually create the report directory on each cluster node. The report path should not reside on a cluster shared volume (CSV) or a shared LUN.
+
+*Related information*
+
+http://technet.microsoft.com/library/jj612868.aspx[Microsoft TechNet: Use Cluster Shared Volumes in a Failover Cluster]

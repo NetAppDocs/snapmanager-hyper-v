@@ -1,0 +1,42 @@
+---
+permalink: concept-snapmanager-for-hyper-v-limitations.html
+sidebar: sidebar
+keywords: important, understand, snapmanager, hyper-v, limitation
+summary: It is important that you understand that some features are not supported in SnapManager 2.1 and later for Hyper-V.
+---
+= List of SnapManager for Hyper-V limitations
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+It is important that you understand that some features are not supported in SnapManager 2.1 and later for Hyper-V .
+
+* Canceling, suspending, and resuming backup and restore jobs is not supported.
+* Policies cannot be copied across datasets.
+* Role-based access control (RBAC) is not supported.
+* Excluding virtual hard disks (VHDs) from a SnapManager for Hyper-V Volume Shadow Copy Service (VSS) backup job is not supported.
+* Single file restore from a backup copy is not natively supported.
+* Cross-version management is not supported; for example, you cannot use Client Console 1.2 to manage SnapManager 2.0 for Hyper-V, and vice versa.
+* If you start to restore a Hyper-V virtual machine (VM), and another backup or restoration of the same VM is in process, your attempt fails.
+* Restoring a deleted VM from a crash-consistent backup copy is supported only for Windows Server 2012.
+* Running different versions of SnapManager for Hyper-V on different nodes of a failover cluster is not supported.
+* Reverting from SnapManager 2.1 for Hyper-V is not supported.
+* Backup or restore jobs of virtual machines are not supported when users change the cluster ownership node while backing up or restoring.
+* Mixed-mode backups (of virtual machines containing files on CSV 2.0 volumes and SMB shares) are not supported.
+* After you migrate the storage of a VM to another location using Windows Server 2012, you cannot restore on that VM from backup copies made before the migration.
+* For Windows Server 2012, you cannot perform a backup job where the backup set includes both a Cluster Shared Volume (CSV) and a shared disk.
+* When configuring Manage Storage Connection Settings, you cannot use Remote Procedure Call (RPC) protocol; you can use only HTTP and HTTPS protocols.
+* Creating an application-consistent backup of a virtual machine (VM) that is stored on NAS storage is not supported by the Windows Server 2012 Hyper-V operating system.
++
+This limitation does not apply to crash-consistent backups. It only applies to the free Hyper-V server, which does not include file share shadow copy services.
+
+* The virtual switch name for a VM must be exactly the same for the primary and secondary Windows hosts.
+* Backup and restore operations require a FlexClone license when Hyper-V VMs are deployed over SMB 3.0.
+* The maximum supported LUN size for restore operations is 14 TB.
+* The following Hyper-V Servers do not support application-consistent backups of VMs:
+ ** Microsoft Hyper-V Server 2016 (free edition)
+ ** Microsoft Hyper-V Server 2019 (free edition)
++
+Note that this limitation does not apply to crash-consistent backups or the following Windows platforms:
+ ** Microsoft Windows Server 2016 Standard and Datacenter Edition
+ ** Microsoft Windows Server 2019 Standard and Datacenter Edition

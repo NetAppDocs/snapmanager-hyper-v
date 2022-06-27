@@ -1,0 +1,17 @@
+---
+permalink: task-view-a-dataset.html
+sidebar: sidebar
+keywords: view, virtual, machine, associate, dataset
+summary: You can view the virtual machines associated with a dataset.
+---
+= View a dataset
+:experimental:
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+You can view the virtual machines associated with a dataset.
+
+.Steps
+. From the navigation pane, click menu:Protection[Datasets].
+. Expand the tree view to look at the virtual machines that belong to the dataset.

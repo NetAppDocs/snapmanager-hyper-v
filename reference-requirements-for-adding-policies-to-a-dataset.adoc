@@ -1,0 +1,88 @@
+---
+permalink: reference-requirements-for-adding-policies-to-a-dataset.html
+sidebar: sidebar
+keywords: specific, requirement, apply, policies, policy, backup, restore, function, multiple, retention, replication, dataset
+summary: You must meet specific requirements when you want to apply policies to datasets for backup or restore functionality. You can add multiple retention, scheduling, and replication policies to the same dataset.
+---
+= Requirements for adding policies to a dataset
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+You must meet specific requirements when you want to apply policies to datasets for backup or restore functionality. You can add multiple retention, scheduling, and replication policies to the same dataset.
+
+== Policy name and description
+
+A policy name and description, limited to these characters:
+
+* a to z
+* A to Z
+* 0 to 9
+* _ (underscore)
+* - (hyphen)
+
+== Backup retention limits
+
+You must decide the minimum length of time that you want to keep your hourly, daily, weekly, or monthly backup copies before they are deleted.
+
+NOTE: Backups with a retention type of "`Unlimited`" are not deleted.
+
+You can keep backups based on either time or a specified number. For example, you can keep the 10 most current backups, or you can delete backups older than 15 days.
+
+If your system appears to retain old backups, you should check your retention policies. All objects being backed up that share a Snapshot copy must meet the backup deletion criteria for the retention policy to trigger the removal of a Snapshot copy.
+
+== Scheduled backup job name
+
+You must assign a name to the scheduled backup job.
+
+== Permission to schedule backups
+
+You must have appropriate credentials to schedule dataset backups.
+
+== Number of possible datasets scheduled for backup simultaneously
+
+If the same virtual machines belong to different datasets, you should not schedule a backup of more than one dataset containing the same VM at the same time. When this occurs, one of the backup operations fails. Only one backup operation can occur on a host at any given time.
+
+== Type of scheduled backup
+
+You can perform either an application-consistent or a crash-consistent backup.
+
+== Backup options
+
+You must choose if you want to update the SnapMirror destination location after the backup is complete.
+
+The update succeeds only if you already have SnapMirror configured, and if the LUNs containing the virtual machines in the dataset belong to the source SnapMirror volume.
+
+The default behavior of SnapManager for Hyper-V is to fail a backup if one or more virtual machines cannot be backed up online. If a virtual machine is in the saved state or shut down, you cannot perform an online backup. In some cases, virtual machines are in the saved state or shut down for maintenance, but backups still need to proceed, even if an online backup is not possible. To do this, you can move the virtual machines that are in the saved state or shut down to a different dataset with a policy that allows saved state backups.
+
+You can also select the Allow saved state VM backup check box to enable SnapManager for Hyper-V to back up the virtual machine in the saved state. If you select this option, SnapManager for Hyper-V does not fail the backup when the Hyper-V VSS writer backs up the virtual machine in the saved state or performs an offline backup of the virtual machine. Performing a saved-state or offline backup can cause downtime.
+
+The `distributed application-consistent backup` feature enables multiple VMs running on the partner cluster nodes to be consistent in a single hardware Snapshot copy made from the backup node. This feature is supported for all the VMs running on a CSV 2.0 Windows volume across multiple nodes in a Windows Failover Cluster. To use this feature, select the `Application-consistent` backup type and select the *Enable Distributed Backup* check box.
+
+== Secondary storage in a SnapMirror backup
+
+These options enable you to accept options applicable to a secondary storage defined in a SnapMirror relationship. Here, you can select *Update SnapMirror after backup*. Under the Vault label option pane, you can select *Update SnapVault after backup*. If you select *Update SnapVault after backup*, you must choose a vault label from the drop-down menu or enter a custom label.
+
+== Backup scripts
+
+You must decide if you want the optional backup scripts to run either before or after the backup takes place.
+
+These scripts run on all dataset member hosts unless you indicate a specific server.
+
+Backup scripts run on each node in the dataset. You can set the dataset policy to specify the name of the host on which you want to run the scripts. The policy is processed on each node in the cluster where the VM to be backed up is running.
+
+image::smhv_policywizard_specified_host.gif[]
+
+You can use the following environment variables in arguments for backup postscripts:
+
+* *$VMSnapshot*: Specifies the name of the Snapshot copy that is created on the storage system as a result of this backup. When you are performing application-consistent backups in ONTAP environments running in 7-Mode, this is the name of the second (backup) Snapshot copy. The first name is same as the second name but without the _backup suffix.
+* *$SnapInfoName*: Specifies the timestamp used in the SnapInfo directory name.
+* *$SnapInfoSnapshot*: Specifies the name of the SnapInfo Snapshot copy created on the storage system. SnapManager for Hyper-V makes a Snapshot copy of the SnapInfo LUN at the end of the dataset backup operation.
++
+NOTE: The *$SnapInfoSnapshot* variable is supported for dedicated virtual machines only.
+
+*Related information*
+
+http://technet.microsoft.com/library/cc753637(WS.10).aspx[Microsoft TechNet: Hyper-V]
+
+http://docs.netapp.com/ontap-9/topic/com.netapp.doc.exp-buvault/home.html[ONTAP 9 Volume Backup Using SnapVault Express Guide]
