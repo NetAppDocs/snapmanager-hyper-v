@@ -5,8 +5,8 @@ settings:
     pdf_enabled: true
   prod:
     pdf_enabled: true
+    harmony_enabled: true
 sidebar:
-
   entries:
   - title: SnapManager for Hyper-V docs
     url: "/index.html"
